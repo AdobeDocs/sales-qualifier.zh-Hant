@@ -4,8 +4,11 @@ description: 瞭解如何在Sales Qualifier設定檔設定中設定您的電子�
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/juP3sddkmc-nSTcTEKGWolbCwNWDgSA0yr6XK1X-w94'
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: e7de3a1e28cb8268b58f1ab1ec10394035bdfd74
 workflow-type: tm+mt
 source-wordcount: 375
@@ -29,7 +32,7 @@ ht-degree: 3%
 
 使用&#x200B;**[!UICONTROL 電子郵件起草內容]**&#x200B;來設定電子郵件語調、結構和樣式，讓電子郵件保持一致。
 
-在&#x200B;**[!UICONTROL 電子郵件起草內容]**區域以純文字標籤撰寫內容。
+在&#x200B;**[!UICONTROL 電子郵件起草內容]**&#x200B;區域以純文字標籤撰寫內容。
 使用它來定義：
 
 * 音調和聲音

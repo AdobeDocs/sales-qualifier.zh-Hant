@@ -47,4 +47,4 @@ ht-degree: 5%
 
 ## 安全性問題
 
-請勿在此問題追蹤器中回報安全性問題。 請改為連絡Adobe安全性](https://helpx.adobe.com/tw/security/alertus.html)。[
+請勿在此問題追蹤器中回報安全性問題。 請改為連絡Adobe安全性[&#128279;](https://helpx.adobe.com/tw/security/alertus.html)。
