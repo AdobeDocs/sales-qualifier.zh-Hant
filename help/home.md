@@ -36,7 +36,7 @@ BDR可使用瀏覽器和電子郵件外掛程式，直接在CRM或Outlook中存�
 * **使用AI Chat （使用您的CRM、參與和知識中心資料）以自然語言提出問題**。
 * 使用電子郵件和會議預約報告&#x200B;**追蹤外聯績效**。
 
->[!VIDEO](https://video.tv.adobe.com/v/3476550)
+>[!VIDEO](https://video.tv.adobe.com/v/3476572?captions=chi_hant)
 
 ## 探索指南
 
