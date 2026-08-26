@@ -4,18 +4,12 @@ description: 瞭解如何在Sales Qualifier中建立、共用、稽核和管理A
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/n3FbuiM2zF9QSqaKx1bhBSdbsf-w7vEsEGjCQTBo3g4'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 351b27d35049b0bb576e9b84f7fd6fada791bb52
 workflow-type: tm+mt
-source-wordcount: 1905
+source-wordcount: 1923
 ht-degree: 0%
 
 ---
@@ -88,6 +82,8 @@ AI會使用目標來建議目標定位篩選器、設計步調、草擬接觸點
 ![接觸點](assets/create-workflow-touchpoints.png){width="800" zoomable="yes"}
 
 展開電子郵件接觸點以讀取其提示。 提示會指引AI撰寫每個潛在客戶的電子郵件，包括語氣、長度、焦點和call to action。
+
+輸入正斜線`/`會開啟定義權杖的清單，您可用來個人化電子郵件。
 
 #### 重新產生步調
 
