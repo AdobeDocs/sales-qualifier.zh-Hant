@@ -4,12 +4,9 @@ description: 瞭解如何在Sales Qualifier工作佇列中處理手動外展工�
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/MbTN1r-ARrW-XYtdIS-KZT7K1Lk-B3GihT8iXL60GrQ'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
 workflow-type: tm+mt
 source-wordcount: 900
 ht-degree: 0%
@@ -19,7 +16,7 @@ ht-degree: 0%
 
 # 工作
 
-使用&#x200B;**[!UICONTROL 任務]**&#x200B;完成參與計畫產生的動作。 選取工作、執行動作、將工作標示為完成，然後繼續下一個工作而不離開頁面。
+使用&#x200B;**[!UICONTROL 任務]**&#x200B;完成輸出工作流程產生的動作。 選取工作、執行動作、將工作標示為完成，然後繼續下一個工作而不離開頁面。
 
 在左側導覽列中，移至&#x200B;**[!UICONTROL 活動]** > **[!UICONTROL 任務]**。
 
@@ -27,8 +24,8 @@ ht-degree: 0%
 
 此頁面有兩個索引標籤：
 
-* **[!UICONTROL 手動工作]** — 已註冊參與計畫的潛在客戶的電話通話、LinkedIn InMails和電子郵件檢閱。
-* **[!UICONTROL 代理程式建議]** — 符合參與計畫目標定位條件且建議註冊的潛在客戶。
+* **[!UICONTROL 手動工作]** — 已註冊傳出工作流程的潛在客戶的電話通話、LinkedIn InMails和電子郵件評論。
+* **[!UICONTROL 代理程式建議]** — 符合輸出工作流程目標定位准則並建議註冊的潛在客戶。
 
 每個標籤都有自己的篩選器、排序選項和雙面板配置。 工作清單會顯示在左側，而工作面板會顯示在右側。 選擇任務會在工作面板中載入其詳細資訊。 當您完成任務時，系統會自動選取下一個任務。
 
@@ -36,7 +33,7 @@ ht-degree: 0%
 
 ### 任務型別
 
-手動作業與「參與計畫」步驟相連結，並有三種型別：
+手動任務與出站工作流程步驟相關聯，並有三種型別：
 
 * **[!UICONTROL 電話通話]** — 在節奏達到電話通話步驟時建立。 工作面板會顯示潛在客戶的電話號碼，並會在AI產生呼叫指令碼（可用時）。
 
@@ -49,7 +46,7 @@ ht-degree: 0%
 對於&#x200B;**[!UICONTROL 電話]**&#x200B;或&#x200B;**[!UICONTROL LinkedIn InMail]**&#x200B;工作，工作面板包含：
 
 * **[!UICONTROL 潛在客戶]** — 潛在客戶的名稱、電子郵件連結和電話號碼（如果適用）。
-* **[!UICONTROL 參與計畫]** — 連結的參與計畫名稱、到期日和自動略過指標（若適用）。
+* **[!UICONTROL 傳出工作流程]** — 連結的傳出工作流程名稱、到期日和自動略過指標（如適用）。
 * **任務內容** — 呼叫指令碼或InMail內容。
 * **[!UICONTROL 附註]** — 當您選取其他任務時，附註會自動儲存。 在任務完成、略過或取消之後，您無法編輯附註。
 
@@ -62,7 +59,7 @@ ht-degree: 0%
 工作面板標題中有兩個動作可供使用：
 
 * **[!UICONTROL 標示完成]** — 在您進行通話、傳送InMail或檢閱電子郵件之後使用此動作。 佇列前進到下一個任務。
-* **[!UICONTROL 跳過]** — 當您無法完成此步驟，但想要將潛在客戶保留在參與計畫中時，請使用此動作。 潛在客戶前進到下一個步調步驟。
+* **[!UICONTROL 跳過]** — 當您無法完成步驟，但想要將潛在客戶保留在輸出工作流程中時，請使用此動作。 潛在客戶前進到下一個步調步驟。
 
 如果電話和LinkedInMail工作保持開啟狀態超過設定的臨界值，則可以自動略過這些工作。 自動略過會隨著節奏前進潛在客戶，不會影響排程的電子郵件接觸點。
 
@@ -74,9 +71,9 @@ ht-degree: 0%
   * **[!UICONTROL 狀態]**—**[!UICONTROL 目前]**，**[!UICONTROL 近期]**，**[!UICONTROL 過期]**，**[!UICONTROL 已完成]**，**[!UICONTROL 已取消]**，**[!UICONTROL 已略過]**。
   * **[!UICONTROL 工作型別]**—**[!UICONTROL 電子郵件檢閱]**，**[!UICONTROL LinkedIn InMail]**，**[!UICONTROL 電話]**。
   * **[!UICONTROL 到期日期]**。
-  * **[!UICONTROL 參與計畫]** — 可搜尋的參與計劃清單。
+  * **[!UICONTROL 傳出工作流程]** — 您傳出工作流程的可搜尋清單。
 * **[!UICONTROL 排序]** — 依到期日或建立日期排序。 排序順序也會決定佇列前進的順序。
-* **[!UICONTROL 搜尋任務]** — 依潛在客戶名稱、公司名稱或參與計畫尋找任務。 搜尋會套用作用中的篩選器。
+* **[!UICONTROL 搜尋任務]** — 依潛在客戶名稱、公司名稱或出站工作流程尋找任務。 搜尋會套用作用中的篩選器。
 
 作用中的濾鏡在工具列下方會顯示為晶片。 選取&#x200B;**[!UICONTROL 全部清除]**&#x200B;以重設它們。
 
@@ -90,14 +87,14 @@ ht-degree: 0%
 | **[!UICONTROL 即將推出]** | 前述步驟已完成，但到期日期為未來日期。 如果時機正確，您可以及早採取行動。 |
 | **[!UICONTROL 過期]** | 已超過到期日但尚未完成。 任務已標幟以引起注意。 |
 | **[!UICONTROL 已完成]** | 您已完成動作並將工作標示為完成。 |
-| **[!UICONTROL 已略過]** | 您已略過該步驟，或該步驟已自動略過。 潛在客戶在業務開發計畫中前進。 |
-| **[!UICONTROL 已取消]** | 由於「預訂計畫」變更，系統已取消作業。 |
+| **[!UICONTROL 已略過]** | 您已略過該步驟，或該步驟已自動略過。 潛在客戶在「出站工作流程」中前進。 |
+| **[!UICONTROL 已取消]** | 由於外站工作流程變更，系統已取消工作。 |
 
 已完成、已略過和已取消的任務為最終任務。 他們的動作不再可用，其附註為唯讀。
 
 ## 代理程式建議
 
-**[!UICONTROL 代理程式建議]**&#x200B;索引標籤會列出符合參與計畫目標定位准則且建議註冊的潛在客戶。 若要開啟建議，請參閱[輸出工作流程](outbound-workflows.md)。
+**[!UICONTROL 代理程式建議]**&#x200B;索引標籤會列出符合輸出工作流程目標定位准則且建議註冊的潛在客戶。 若要開啟建議，請參閱[輸出工作流程](outbound-workflows.md)。
 
 選取建議以在工作面板中檢閱：
 
@@ -106,14 +103,14 @@ ht-degree: 0%
 
 有兩個動作可供使用：
 
-* **[!UICONTROL 檢閱潛在客戶]** — 開啟參與計畫以檢閱和註冊建議的潛在客戶。 檢視[新增潛在客戶並開始產生電子郵件](outbound-workflows.md#step-5-add-prospects-and-start-email-generation)。
+* **[!UICONTROL 檢閱潛在客戶]** — 開啟[外站工作流程]以檢閱及註冊建議的潛在客戶。 檢視[新增潛在客戶並開始產生電子郵件](outbound-workflows.md#step-5-add-prospects-and-start-email-generation)。
 * **[!UICONTROL 標示為完成]** — 在您檢閱建議後將其關閉。
 
-**[!UICONTROL 代理程式建議]**&#x200B;索引標籤包含&#x200B;**[!UICONTROL 目前]**、**[!UICONTROL 已完成]**&#x200B;和&#x200B;**[!UICONTROL 已取消]**&#x200B;狀態篩選器、參與計畫篩選器，以及依建立日期排序。
+**[!UICONTROL 代理程式建議]**&#x200B;索引標籤包含&#x200B;**[!UICONTROL 目前]**、**[!UICONTROL 已完成]**&#x200B;和&#x200B;**[!UICONTROL 已取消]**&#x200B;狀態篩選器、傳出工作流程篩選器，以及依建立日期排序。
 
-## 從參與計畫完成任務
+## 從傳出工作流程完成任務
 
-在參與計畫的&#x200B;**[!UICONTROL 參與的潛在客戶]**&#x200B;檢視上，手動接觸點提供相同的&#x200B;**[!UICONTROL 標籤為完成]**、**[!UICONTROL 跳過]**&#x200B;以及附註選項。 在那裡完成一項任務也會更新其在&#x200B;**[!UICONTROL 任務]**&#x200B;頁面上的狀態。 請參閱[輸出工作流程](outbound-workflows.md)。
+在輸出工作流程的&#x200B;**[!UICONTROL 參與的潛在客戶]**&#x200B;檢視上，手動接觸點提供相同的&#x200B;**[!UICONTROL 標籤為完成]**、**[!UICONTROL 跳過]**&#x200B;和附註選項。 在那裡完成一項任務也會更新其在&#x200B;**[!UICONTROL 任務]**&#x200B;頁面上的狀態。 請參閱[輸出工作流程](outbound-workflows.md)。
 
 ## 空白狀態
 

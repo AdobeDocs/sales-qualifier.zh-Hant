@@ -4,16 +4,12 @@ description: 瞭解如何在Sales Qualifier中建立、篩選及檢閱潛在客�
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/zf2H5rq1JlIT26LqLPMrm2Mq3tSIrLOiTEw6BXb1w2U'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
 workflow-type: tm+mt
-source-wordcount: 535
+source-wordcount: 550
 ht-degree: 2%
 
 ---
@@ -27,6 +23,7 @@ ht-degree: 2%
 
 * **[!UICONTROL 銷售機會]** — 在連線的CRM中指派給您的銷售機會。
 * **[!UICONTROL 連絡人]** — 在連線的CRM中指派給您的連絡人。
+* **[!UICONTROL 行銷重點專案]** — 具有即時Marketo活動（例如電子郵件開啟或點按）的潛在客戶。
 * **[!UICONTROL 人員清單]** — 您手動匯入或新增的潛在客戶。
 
 ## 建立您的潛在客戶清單
@@ -40,6 +37,9 @@ ht-degree: 2%
 若要新增非來自您CRM的潛在客戶：
 
 1. 在&#x200B;**[!UICONTROL 潛在客戶]**&#x200B;頁面上，選取&#x200B;**[!UICONTROL 人員清單]**。
+
+   ![人員清單](assets/prospects-people-list.png){width="800" zoomable="yes"}
+
 1. 選取&#x200B;**[!UICONTROL +新增人員]**，然後選取&#x200B;**[!UICONTROL 匯入CSV]**&#x200B;或&#x200B;**[!UICONTROL 新增人員]**。
 
    * 若要匯入CSV，請上傳`firstname,email`格式的CSV。
@@ -52,7 +52,7 @@ ht-degree: 2%
 
 選取&#x200B;**[!UICONTROL 篩選器]**&#x200B;以縮小清單。 您可以依下列條件篩選：
 
-* 參與計畫狀態
+* 傳出工作流程狀態
 * 建立者
 * 職稱
 * 帳戶
