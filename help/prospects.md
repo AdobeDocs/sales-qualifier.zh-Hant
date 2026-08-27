@@ -1,6 +1,6 @@
 ---
 title: Sales Qualifier中的潛在客戶
-description: 瞭解如何在Sales Qualifier中建立、篩選及檢閱潛在客戶清單，以排定外展活動的優先順序。
+description: 瞭解如何從CRM、匯入和手動新增的來源、篩選潛在客戶以及在Sales Qualifier中檢閱潛在客戶詳細資訊，以建立您的潛在客戶清單。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/zf2H5rq1JlIT26LqLPMrm2Mq3tSIrLOiTEw6BXb1w2U'
@@ -11,9 +11,9 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+source-git-commit: 351b27d35049b0bb576e9b84f7fd6fada791bb52
 workflow-type: tm+mt
-source-wordcount: 535
+source-wordcount: 549
 ht-degree: 2%
 
 ---
@@ -27,6 +27,7 @@ ht-degree: 2%
 
 * **[!UICONTROL 銷售機會]** — 在連線的CRM中指派給您的銷售機會。
 * **[!UICONTROL 連絡人]** — 在連線的CRM中指派給您的連絡人。
+* **[!UICONTROL 行銷重點專案]** — 具有即時Marketo活動（例如電子郵件開啟或點按）的潛在客戶。
 * **[!UICONTROL 人員清單]** — 您手動匯入或新增的潛在客戶。
 
 ## 建立您的潛在客戶清單
@@ -40,6 +41,9 @@ ht-degree: 2%
 若要新增非來自您CRM的潛在客戶：
 
 1. 在&#x200B;**[!UICONTROL 潛在客戶]**&#x200B;頁面上，選取&#x200B;**[!UICONTROL 人員清單]**。
+
+   ![人員清單](assets/prospects-people-list.png){width="800" zoomable="yes"}
+
 1. 選取&#x200B;**[!UICONTROL +新增人員]**，然後選取&#x200B;**[!UICONTROL 匯入CSV]**&#x200B;或&#x200B;**[!UICONTROL 新增人員]**。
 
    * 若要匯入CSV，請上傳`firstname,email`格式的CSV。
@@ -52,7 +56,7 @@ ht-degree: 2%
 
 選取&#x200B;**[!UICONTROL 篩選器]**&#x200B;以縮小清單。 您可以依下列條件篩選：
 
-* 參與計畫狀態
+* 傳出工作流程狀態
 * 建立者
 * 職稱
 * 帳戶
@@ -63,18 +67,18 @@ ht-degree: 2%
 
 在&#x200B;**[!UICONTROL 我的商機聯絡人]**&#x200B;中，您也可以依相關商機的欄位來篩選聯絡人，例如階段、型別和結束日期。 商機欄位有標籤，例如&#x200B;**[!UICONTROL 階段（商機）]**，這會將商機欄位與聯絡人欄位區分開來。 您的管理員可控制哪些機會欄位可做為篩選器。
 
-### 依Marketo參與度篩選
+### 依行銷重點篩選
 
 透過潛在客戶的即時[!DNL Marketo]參與（例如電子郵件開啟和點按、網頁造訪、表單填寫和有趣的時刻）來尋找並排定其優先順序。 參與幾乎會即時出現。
 
-若要依Marketo參與度篩選潛在客戶：
+若要依行銷重點篩選潛在客戶：
 
 1. 選取&#x200B;**[!UICONTROL 篩選器]**。
-1. 新增[!DNL Marketo]參與篩選器，並設定活動型別、行銷活動或其他屬性，以聚焦於重要的參與。
+1. 新增行銷重點篩選並設定活動型別、行銷活動或其他屬性，以聚焦於重要的參與。
 
 每個潛在客戶都會顯示其最新的[!DNL Marketo]活動以及最近的歷史記錄。
 
-Marketo參與篩選功能適用於所有生產區域。 您的管理員會為您的組織和沙箱開啟此功能，而行銷人員會在[!DNL Marketo]中完成一次性設定。 請參閱[開啟Marketo參與篩選](integrations.md#turn-on-marketo-engagement-filtering)。
+行銷重點適用於所有生產區域。 管理員完成一次性設定，將[!DNL Marketo]連線至Sales Qualifier。 請參閱[設定行銷重點專案](integrations.md#turn-on-marketo-engagement-filtering)。
 
 ## 檢閱潛在客戶詳細資訊
 

@@ -13,7 +13,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d6a8091bd893ea80a26edfc1526646aec037223f
+source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
 workflow-type: tm+mt
 source-wordcount: 246
 ht-degree: 4%
@@ -29,7 +29,7 @@ Sales Qualifier使用兩個必要的使用者群組，將銷售工作與整個�
 
 | 群組 | 屬於誰 | 授予內容 |
 | --- | --- | --- |
-| `Sales Qualifier` | 每個使用者，包括管理員 | 存取應用程式：潛在客戶、帳戶、參與計畫、工作、績效和設定檔設定。 |
+| `Sales Qualifier` | 每個使用者，包括管理員 | 存取應用程式：潛在客戶、帳戶、傳出工作流程、工作、效能和設定檔設定。 |
 | `Sales Qualifier Admins` | 除了`Sales Qualifier`群組之外，僅限管理員 | 存取&#x200B;**[!UICONTROL 管理設定]**，其管理整個組織的CRM連線、知識中心及規範設定。 |
 
 標準使用者只需要`Sales Qualifier`群組。 管理員需要兩個群組的成員資格。 請參閱[開始使用](getting-started.md)以建立這些群組。

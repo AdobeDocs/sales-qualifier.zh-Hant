@@ -12,7 +12,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
 workflow-type: tm+mt
 source-wordcount: 412
 ht-degree: 22%
@@ -29,7 +29,7 @@ BDR可使用瀏覽器和電子郵件外掛程式，直接在CRM或Outlook中存�
 ## 在Sales Qualifier中可以做什麼
 
 * **使用AI產生的活動摘要和訊號式優先順序，優先處理潛在客戶和帳戶**。
-* **建立目標導向的參與計畫**，其中AI會為每個潛在客戶建議步調並草擬個人化電子郵件。
+* **建立目標導向的傳出工作流程**，其中AI會為每個潛在客戶建議步調並草擬個人化電子郵件。
 * **在一個佇列中處理外展工作**，處理電話、LinkedIn InMails和電子郵件評論。
 * **連線行事曆並將個人預約連結插入您的步調，以自動預約會議**。
 * **在知識中心建立行動手冊，以您自己的資料通知AI外展人員**。

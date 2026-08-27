@@ -6,7 +6,7 @@ role: User
 TQID: 'https://experienceleague.adobe.com/ofBw7JHKkkQaPOeUZ6rreLDAhAfineLveBeVYK-CerQ'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
 workflow-type: tm+mt
 source-wordcount: 321
 ht-degree: 0%
@@ -59,7 +59,7 @@ Sales Qualifier會為「不在辦公室」回覆和退信指派個別的狀態�
 
 ## 行銷活動績效
 
-**[!UICONTROL 行銷活動績效]**&#x200B;報告參與計畫行銷活動的傳出結果：
+**[!UICONTROL 依傳出工作流程行銷活動產生的傳出結果行銷活動績效]**&#x200B;報告：
 
 * **KPI圖磚**：作用中潛在客戶、開啟率、點按率、回覆率，以及已預訂的會議。
 * **行銷活動量度趨勢圖**：所選時段內的行銷活動KPI。

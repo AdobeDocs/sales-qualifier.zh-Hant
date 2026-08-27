@@ -12,9 +12,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+source-git-commit: 351b27d35049b0bb576e9b84f7fd6fada791bb52
 workflow-type: tm+mt
-source-wordcount: 1412
+source-wordcount: 1379
 ht-degree: 1%
 
 ---
@@ -96,6 +96,8 @@ Sales Qualifier只會讀取其傳送的電子郵件回覆，而不會讀取收�
 
    輸入&#x200B;**[!UICONTROL 使用者端識別碼（使用者金鑰）]**、**[!UICONTROL 執行個體URL]**&#x200B;和&#x200B;**[!UICONTROL 使用者端密碼]**。 使用標準執行個體URL表單`https://{{mydomain}}.my.salesforce.com`。
 
+   ![Salesforce連線](assets/crm-conn-salesforce.png){width="800" zoomable="yes"}
+
    >[!TAB Microsoft Dynamics]
 
    輸入&#x200B;**[!UICONTROL 使用者端識別碼（消費者金鑰）]**、**[!UICONTROL 租使用者識別碼]**、**[!UICONTROL Microsoft Dynamics執行個體URL]**&#x200B;以及&#x200B;**[!UICONTROL 使用者端密碼]**。 使用標準執行個體URL表單`https://{{mydomain}}.crm.dynamics.com`。
@@ -117,7 +119,7 @@ Sales Qualifier只會讀取其傳送的電子郵件回覆，而不會讀取收�
 
 >[!WARNING]
 >
->當您中斷CRM連線時，組織中的所有潛在客戶的參與計畫都會暫停，而且在您重新連線之前，不會有任何新的潛在客戶從您的CRM同步。
+>當您中斷CRM連線時，組織中的所有潛在客戶都會暫停傳出工作流程，在您重新連線之前，不會有任何新的潛在客戶從您的CRM同步。
 
 ## 對應CRM欄位（傳入對應） {#map-crm-fields-inbound-mapping}
 
@@ -148,7 +150,7 @@ Sales Qualifier只會讀取其傳送的電子郵件回覆，而不會讀取收�
 
 ## 設定活動同步（傳出對應） {#configure-activity-sync-outbound-mapping}
 
-Activity Sync會將Sales Qualifier外聯活動寫入您的CRM和Marketo。 已傳送、已開啟、已點按及已回覆的電子郵件活動包含參與計畫名稱。 代表可以在CRM中看到活動，而行銷團隊可以在潛在客戶評分和參與時間表中使用Marketo活動。
+Activity Sync會將Sales Qualifier外聯活動寫入您的CRM和Marketo。 已傳送、已開啟、已點按和已回覆的電子郵件活動包含傳出工作流程名稱。 代表可以在CRM中看到活動，而行銷團隊可以在潛在客戶評分和參與時間表中使用Marketo活動。
 
 1. 在連線的CRM卡上，選取&#x200B;**[!UICONTROL 管理]**。
 1. 開啟&#x200B;**[!UICONTROL 傳出對應]**&#x200B;索引標籤。
@@ -160,20 +162,13 @@ Activity Sync會將Sales Qualifier外聯活動寫入您的CRM和Marketo。 已�
 >
 >活動同步作業需要您CRM中的寫入許可權。 如果缺少所需的許可權，則會停用交換器，且Sales Qualifier會提示您聯絡管理員。 若要授與活動寫入許可權，請與您的CRM管理員合作。
 
-## 開啟Marketo參與篩選功能 {#turn-on-marketo-engagement-filtering}
+## 設定行銷重點專案 {#turn-on-marketo-engagement-filtering}
 
-Marketo參與篩選可讓代表透過其即時[!DNL Marketo]參與（例如電子郵件開啟和點按），尋找潛在客戶並設定其優先順序。 請參閱[依Marketo參與度篩選](prospects.md#filter-by-marketo-engagement)。
+行銷重點可讓代表透過其即時[!DNL Marketo]參與（例如電子郵件開啟和點按），尋找潛在客戶並安排其優先順序。 請參閱[依行銷重點篩選](prospects.md#filter-by-marketing-highlights)。
 
-管理員會開啟相關組織和沙箱的Marketo參與篩選。 開機後，行銷人員在[!DNL Marketo]中完成一次性設定。
+管理員完成一次性設定，將[!DNL Marketo]連線到相關組織和沙箱的Sales Qualifier。 此設定涵蓋在Adobe Developer Console中建立API認證、在[!DNL Marketo]中設定webhook，以及將該webhook新增至觸發程式Smart Campaign。 如需完整步驟，請參閱[設定行銷重點專案](marketing-highlights-setup.md)。
 
-若要將智慧型行銷活動的活動流入Sales Qualifier：
-
-1. 在[!DNL Marketo]中，開啟您要將其活動流入Sales Qualifier的Smart Campaign。
-1. 將呼叫Webhook步驟新增至Smart Campaign流程。
-
-webhook步驟就緒後，該Smart Campaign中的活動會流入Sales Qualifier，代表可依其篩選潛在客戶。
-
-Marketo參與篩選適用於所有生產地區：北美、歐洲、中東和非洲及澳洲。
+行銷重點適用於所有生產區域：北美、歐洲、中東和非洲及澳洲。
 
 ## 設定全域電子郵件選擇退出 {#configure-global-email-opt-out}
 

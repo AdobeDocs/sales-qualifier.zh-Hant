@@ -10,7 +10,7 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
 workflow-type: tm+mt
 source-wordcount: 632
 ht-degree: 0%
@@ -67,7 +67,7 @@ Sales Qualifier會從潛在客戶的CRM記錄中識別帳戶。 與該帳戶相�
 
 從&#x200B;**[!UICONTROL 最上層成員]**&#x200B;檢視，為連絡人執行下列任一動作：
 
-* **[!UICONTROL 新增至參與計畫]** — 將連絡人註冊至[參與計畫](outbound-workflows.md)。
+* **[!UICONTROL 新增至傳出工作流程]** — 在[傳出工作流程](outbound-workflows.md)中註冊連絡人。
 * **[!UICONTROL 新增至Marketo行銷活動]** — 觸發連絡人的[!DNL Marketo]行銷活動。
 
 ## 研究帳戶
@@ -86,7 +86,7 @@ Sales Qualifier會從潛在客戶的CRM記錄中識別帳戶。 與該帳戶相�
 
 * 參考最近的新聞專案或研究訊號，讓您的開放變得相關，而不是使用一般的推介。
 * 勾選未結商機與管道值，以決定是否要優先處理科目。
-* 使用&#x200B;**[!UICONTROL 最上層成員]**&#x200B;來識別要聯絡的人，然後將其註冊到參與計畫中。
+* 使用&#x200B;**[!UICONTROL 最上層成員]**&#x200B;來識別要聯絡的人，然後將其註冊到外站工作流程。
 * 在通話前詢問[AI聊天](ai-assistant.md)以開發帳戶的定位。
 
 >[!MORELIKETHIS]
