@@ -4,14 +4,11 @@ description: 瞭解如何在Sales Qualifier設定檔設定中設定您的電子�
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/juP3sddkmc-nSTcTEKGWolbCwNWDgSA0yr6XK1X-w94'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: e7de3a1e28cb8268b58f1ab1ec10394035bdfd74
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
 workflow-type: tm+mt
-source-wordcount: 375
+source-wordcount: 394
 ht-degree: 3%
 
 ---
@@ -21,18 +18,23 @@ ht-degree: 3%
 
 在左側導覽列中，展開&#x200B;**[!UICONTROL 設定]**&#x200B;並選取&#x200B;**[!UICONTROL 設定檔設定]**。 使用這些設定來管理您的個人詳細資料、電子郵件連線、行事曆和聊天可用性。
 
+![設定檔設定](assets/profile-email-config.png)
+
 ## 電子郵件設定
 
 在&#x200B;**[!UICONTROL 電子郵件設定]**&#x200B;索引標籤中，設定您的電子郵件連線。
 
-* **[!UICONTROL 電子郵件連線]** — 選取&#x200B;**[!UICONTROL 連線Outlook]**&#x200B;並遵循Microsoft登入程式。 如需您核准的存取許可權和系統管理員核准路徑，請參閱[連線Outlook](integrations.md#connect-outlook) （如果需要）。
+* **[!UICONTROL 電子郵件連線]** — 選取Microsoft Outlook或Google並依照登入程式進行。 如需您核准的存取許可權和系統管理員核准路徑，請參閱[連線Outlook](integrations.md#connect-outlook) （如果需要）。
 * **[!UICONTROL 電子郵件簽章]** — 新增或更新產生之電子郵件中所使用的簽章。 加入您的[會議預訂](outbound-workflows.md#meeting-booking)連結，讓潛在客戶可以排程與您共度的時間。
+* **[!UICONTROL 會議預約連結]** — 在您的電子郵件中傳送會議邀請。 取得會議URL。
 
 ### 電子郵件草擬內容
 
+![電子郵件內容](assets/profile-email-instructions.png)
+
 使用&#x200B;**[!UICONTROL 電子郵件起草內容]**&#x200B;來設定電子郵件語調、結構和樣式，讓電子郵件保持一致。
 
-在&#x200B;**[!UICONTROL 電子郵件起草內容]**&#x200B;區域以純文字標籤撰寫內容。
+在&#x200B;**[!UICONTROL 電子郵件起草內容]**區域以純文字標籤撰寫內容。
 使用它來定義：
 
 * 音調和聲音

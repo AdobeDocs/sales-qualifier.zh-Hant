@@ -4,19 +4,12 @@ description: 瞭解在您的團隊開始使用應用程式之前，如何完成S
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 TQID: 'https://experienceleague.adobe.com/-nfmFwZyZFUZhm-uQUjSyTvrORuqJgKSKnENWYtvubs'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 483e57ab9d8f3f5e4201e0b691e37727a25d3f22
 workflow-type: tm+mt
-source-wordcount: 1054
+source-wordcount: 1015
 ht-degree: 0%
 
 ---
@@ -30,7 +23,9 @@ Adobe為您的組織布建Sales Qualifier後，[!DNL Marketo]系統管理員必�
 
 ## 設定使用者群組
 
-Adobe Admin Console中的兩個使用者群組可控制Sales Qualifier的存取權。 在使用者登入前建立兩個群組。
+Adobe Admin Console中的使用者群組可用來控制對Sales Qualifier的存取。 必須先建立兩個群組，使用者才能登入。
+
+如需設定群組的相關資訊，請參閱[Adobe Admin Console檔案](https://helpx.adobe.com/business/enterprise/users/users-and-groups/user-groups.html)。
 
 >[!PREREQUISITES]
 >
@@ -43,6 +38,8 @@ Adobe Admin Console中的兩個使用者群組可控制Sales Qualifier的存取�
 
 使用者必須屬於`Sales Qualifier`使用者群組才能存取應用程式。
 
+這些步驟是在Adobe Admin Console中完成。
+
 1. 從九點式應用程式切換器中，選取&#x200B;**[!UICONTROL Admin Console]**。
 1. 選取&#x200B;**[!UICONTROL 使用者]** > **[!UICONTROL 使用者群組]** > **[!UICONTROL 新增使用者群組]**。
 1. 輸入`Sales Qualifier`作為群組名稱，並選取&#x200B;**[!UICONTROL 儲存]**。
@@ -53,18 +50,16 @@ Adobe Admin Console中的兩個使用者群組可控制Sales Qualifier的存取�
 
 ### Sales Qualifier管理員
 
-設定CRM連線、[知識中心](knowledge-center.md)以及全域電子郵件選擇退出設定的管理員也必須屬於`Sales Qualifier Admins`使用者群組。
+設定CRM連線、[知識中心](admin-settings.md#knowledge-center)以及全域電子郵件選擇退出設定的管理員也必須屬於`Sales Qualifier Admins`使用者群組。
 
 1. 在Adobe Admin Console中，選取&#x200B;**[!UICONTROL 使用者]** > **[!UICONTROL 使用者群組]** > **[!UICONTROL 新增使用者群組]**。
 1. 輸入`Sales Qualifier Admins`作為群組名稱，並選取&#x200B;**[!UICONTROL 儲存]**。
 1. 開啟&#x200B;**[!UICONTROL 使用者]**，選取&#x200B;**[!UICONTROL 新增使用者]**，然後新增系統管理員。
 1. 確認每位管理員也是`Sales Qualifier`群組的成員。
 
-兩個群組的成員資格可讓左側導覽中的&#x200B;**[!UICONTROL 管理]**&#x200B;下顯示&#x200B;**[!UICONTROL 管理設定]**。 標準使用者可處理管理員設定的欄位、篩選器和教戰手冊。 設定的選擇退出頁尾會自動套用至其傳出電子郵件。 標準使用者無法變更這些設定。 如需詳細資訊，請參閱[使用者角色和許可權](user-roles-permissions.md)。
+兩個群組的成員資格可讓左側導覽中的&#x200B;**[!UICONTROL 管理]**&#x200B;下顯示&#x200B;**[!UICONTROL 管理設定]**。 標準使用者可處理管理員設定的欄位、篩選器和教戰手冊。 設定的選擇退出頁尾會自動套用至其傳出電子郵件。 標準使用者無法變更這些設定。
 
->[!NOTE]
->
->使用者群組名稱必須完全符合上述步驟。
+使用者群組名稱必須完全符合上述步驟。
 
 您也可以建立選用的`Sales Qualifier BDR managers`群組。 此群組的成員可以存取電子郵件效能報表。
 
@@ -116,9 +111,7 @@ Salesforce系統管理員會建立外部使用者端應用程式（也稱為連�
    * 回呼 URL
    * Salesforce執行個體URL
 
->[!IMPORTANT]
->
->請勿透過電子郵件傳送使用者端密碼。 使用您組織核准的安全通道，與在Sales Qualifier中進入認證的人共用認證。
+步驟可能與此處所述略有不同。 如需詳細資訊，請參閱[Salesforce檔案](https://help.salesforce.com/s/)。
 
 ### 尋找您的Salesforce執行個體URL
 
@@ -154,9 +147,9 @@ Microsoft Dynamics 365或Azure管理員會註冊應用程式，並將其新增�
 1. 在左側導覽列中，展開&#x200B;**[!UICONTROL 管理]**&#x200B;並選取&#x200B;**[!UICONTROL 管理設定]**。
 1. 選取&#x200B;**[!UICONTROL 整合]**&#x200B;下的&#x200B;**[!UICONTROL CRM連線]**。
 
-   舊版介面可能會在&#x200B;**[!UICONTROL 管理]**&#x200B;下將此區域顯示為&#x200B;**[!UICONTROL 整合]**。
-
    頁面會顯示Salesforce和Microsoft Dynamics的卡片。 非使用中的連線顯示&#x200B;**[!UICONTROL 連線]**。 已設定的連線顯示&#x200B;**[!UICONTROL 已連線]**&#x200B;和&#x200B;**[!UICONTROL 管理]**。
+
+   ![Salesforce認證](assets/crm-salesforce-config.png){width="800" zoomable="yes"}
 
 1. 為您使用的CRM選取&#x200B;**[!UICONTROL 連線]**。
 1. 輸入您CRM管理員提供的認證和執行個體URL。
@@ -164,18 +157,9 @@ Microsoft Dynamics 365或Azure管理員會註冊應用程式，並將其新增�
 
 ### 匯入CRM欄位
 
-連線CRM後，設定輸入對應以選擇哪些CRM欄位會出現在Sales Qualifier中。
+連線CRM後，請設定輸入對應來判斷哪些CRM欄位會出現在Sales Qualifier中。 在連線的CRM卡片上，選取&#x200B;**[!UICONTROL 管理]**&#x200B;以開啟&#x200B;**[!UICONTROL 輸入對應]**，然後為您要匯入其欄位的每個實體型別新增區段。
 
-1. 在連線的CRM卡片上，選取&#x200B;**[!UICONTROL 管理]**&#x200B;以開啟&#x200B;**[!UICONTROL 輸入對應]**。
-1. 選取&#x200B;**[!UICONTROL 新增節]**。
-1. 輸入區段名稱和說明。
-1. 選取實體型別。 預設會選取&#x200B;**[!UICONTROL 潛在客戶]**。 **[!UICONTROL 連絡人]**、**[!UICONTROL 帳戶]**&#x200B;和&#x200B;**[!UICONTROL 商機]**&#x200B;也可供使用。
-1. 選取要匯入的CRM欄位。
-1. 預覽區段並選取&#x200B;**[!UICONTROL 新增]**。
-
-潛在客戶欄位出現在&#x200B;**[!UICONTROL 人員]**&#x200B;標籤上，帳戶欄位出現在&#x200B;**[!UICONTROL 帳戶]**&#x200B;標籤上，而機會欄位出現在&#x200B;**[!UICONTROL 帳戶機會]**&#x200B;區段中。 針對代表需要作為篩選器的每個對應欄位，開啟&#x200B;**[!UICONTROL 可篩選]**。
-
-請參閱[整合](integrations.md#map-crm-fields-inbound-mapping)以管理欄位對應和同步化。
+如需完整的步驟，包括如何讓匯入的欄位成為可用的篩選器，請參閱[對應CRM欄位（輸入對應）](integrations.md#map-crm-fields-inbound-mapping)。
 
 ## 後續步驟
 
@@ -183,4 +167,3 @@ Microsoft Dynamics 365或Azure管理員會註冊應用程式，並將其新增�
 >
 >* [潛在客戶](prospects.md)
 >* [傳出工作流程](outbound-workflows.md)
->* [使用者角色和許可權](user-roles-permissions.md)

@@ -4,18 +4,13 @@ description: 瞭解Sales Qualifier，這是人工智慧驅動的應用程式，�
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/4IsAlgFBxddHCz0-CLCDXPCHI7m3motiXhgCR6MZq0k'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 483e57ab9d8f3f5e4201e0b691e37727a25d3f22
 workflow-type: tm+mt
-source-wordcount: 412
-ht-degree: 22%
+source-wordcount: 391
+ht-degree: 21%
 
 ---
 
@@ -36,13 +31,13 @@ BDR可使用瀏覽器和電子郵件外掛程式，直接在CRM或Outlook中存�
 * **使用AI Chat （使用您的CRM、參與和知識中心資料）以自然語言提出問題**。
 * 使用電子郵件和會議預約報告&#x200B;**追蹤外聯績效**。
 
->[!VIDEO](https://video.tv.adobe.com/v/3476572?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3476550)
 
 ## 探索指南
 
 ::::landing-cards-container
 :::card
-![圖示](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![圖示](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 開始使用
 
@@ -52,7 +47,7 @@ BDR可使用瀏覽器和電子郵件外掛程式，直接在CRM或Outlook中存�
 :::
 
 :::card
-![圖示](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![圖示](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 潛在客戶
 
@@ -62,7 +57,7 @@ BDR可使用瀏覽器和電子郵件外掛程式，直接在CRM或Outlook中存�
 :::
 
 :::card
-![圖示](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![圖示](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 帳戶
 
@@ -72,7 +67,7 @@ BDR可使用瀏覽器和電子郵件外掛程式，直接在CRM或Outlook中存�
 :::
 
 :::card
-![圖示](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![圖示](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 傳出工作流程
 
@@ -82,7 +77,7 @@ BDR可使用瀏覽器和電子郵件外掛程式，直接在CRM或Outlook中存�
 :::
 
 :::card
-![圖示](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![圖示](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 工作
 
@@ -92,7 +87,7 @@ BDR可使用瀏覽器和電子郵件外掛程式，直接在CRM或Outlook中存�
 :::
 
 :::card
-![圖示](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![圖示](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 績效
 
@@ -102,17 +97,17 @@ BDR可使用瀏覽器和電子郵件外掛程式，直接在CRM或Outlook中存�
 :::
 
 :::card
-![圖示](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![圖示](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 知識中心
 
 建立行動手冊，在您的資料中納入人工智慧外聯和協助。
 
-[知識中心](knowledge-center.md)
+[知識中心](admin-settings.md#knowledge-center)
 :::
 
 :::card
-![圖示](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![圖示](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 整合
 
@@ -122,7 +117,7 @@ BDR可使用瀏覽器和電子郵件外掛程式，直接在CRM或Outlook中存�
 :::
 
 :::card
-![圖示](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![圖示](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 輪廓設定
 
@@ -132,17 +127,7 @@ BDR可使用瀏覽器和電子郵件外掛程式，直接在CRM或Outlook中存�
 :::
 
 :::card
-![圖示](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
-
-使用者角色和許可權
-
-瞭解使用者和管理員群組模型。
-
-[使用者角色和許可權](user-roles-permissions.md)
-:::
-
-:::card
-![圖示](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![圖示](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 AI聊天
 

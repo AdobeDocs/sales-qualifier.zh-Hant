@@ -4,15 +4,12 @@ description: 瞭解如何管理CRM欄位、活動同步、電子郵件選擇退�
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 TQID: 'https://experienceleague.adobe.com/vbtO6I67ZEaZz3oio9InNErvq5D0wjbRxyDZpTq8Lzo'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
 internal-label: Administration
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+source-git-commit: 483e57ab9d8f3f5e4201e0b691e37727a25d3f22
 workflow-type: tm+mt
-source-wordcount: 670
+source-wordcount: 856
 ht-degree: 0%
 
 ---
@@ -28,7 +25,7 @@ Sales Qualifier會連線至Salesforce或Microsoft Dynamics 365。 此連線可�
 
 >[!IMPORTANT]
 >
->存取&#x200B;**[!UICONTROL 管理員設定]**&#x200B;需要`Sales Qualifier`和`Sales Qualifier Admins`使用者群組的成員資格。 請參閱[使用者角色和許可權](user-roles-permissions.md)。
+>存取&#x200B;**[!UICONTROL 管理員設定]**&#x200B;需要`Sales Qualifier`和`Sales Qualifier Admins`使用者群組的成員資格。
 
 ## CRM MCP與內嵌外掛程式
 
@@ -74,6 +71,31 @@ CRM連線之後，請針對連線選取&#x200B;**[!UICONTROL 管理]**，並開�
 
 當活動同步關閉時，Sales Qualifier會繼續使用傳入CRM資料，但不會將外聯活動同步至CRM或Marketo。
 
+## 建立知識中心行動手冊 {#knowledge-center}
+
+**[!UICONTROL 知識中心]**&#x200B;可讓Account Qualification Agent (AQA)存取您的銷售資料。 Sales Qualifier使用這些資料來產生研究、資格深入分析和外展活動，以反映貴組織的銷售方式。 只有管理員可以建置和管理行動手冊。
+
+![知識中心](assets/knowledge-center.png){width="800" zoomable="yes"}
+
+1. 在左側導覽列中，展開&#x200B;**[!UICONTROL 管理]**，選取&#x200B;**[!UICONTROL 管理設定]**，然後選取&#x200B;**[!UICONTROL 知識中心]**
+1. u
+1. 設定Sales Qualifier用來研究您的公司及草擬電子郵件的&#x200B;**[!UICONTROL 公司名稱]**&#x200B;和&#x200B;**[!UICONTROL 公司URL]**。
+1. 以PDF、PPTX或DOCX格式上傳銷售重頭戲、理想客戶設定檔(ICP)、定位指南和其他銷售宣傳品。
+1. 選取&#x200B;**[!UICONTROL 建置行動手冊]**。
+
+每個上傳的檔案會顯示其處理狀態（例如&#x200B;**[!UICONTROL 就緒]**）以及上次更新時間。
+
+>[!NOTE]
+>
+>行動手冊最多可能需要24小時的時間處理。
+
+當教戰手冊準備就緒時，代表可以在兩個地方使用它：
+
+* **傳出電子郵件提示** — 在接觸點提示中，命名檔案並描述要使用的內容。 例如，輸入`Use the ABC positioning guide from the Knowledge Center and focus on the security value proposition`。 請參閱[產生並檢閱接觸點](outbound-workflows.md#step-3-generate-and-review-touchpoints)。
+* **AI聊天**：請參考您問題中的知識中心。 例如，輸入`From the Knowledge Center, help me position our security solution for ABC Corp before tomorrow's call`。 檢視[AI聊天](ai-assistant.md)。
+
+在這兩種情況下，產生的內容都會反映行動手冊中的訊息，而非一般研究。
+
 ## 設定全域電子郵件選擇退出
 
 1. 在左側導覽列中，展開&#x200B;**[!UICONTROL 管理]**&#x200B;並選取&#x200B;**[!UICONTROL 管理設定]**。
@@ -113,5 +135,4 @@ ORDER BY LastModifiedDate DESC
 >[!MORELIKETHIS]
 >
 >* [開始使用](getting-started.md)
->* [使用者角色和許可權](user-roles-permissions.md)
 >* [潛在客戶](prospects.md)

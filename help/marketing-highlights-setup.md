@@ -3,18 +3,12 @@ title: 設定行銷重點專案
 description: 瞭解如何將Marketo連結至Sales Qualifier，讓代表可以透過「行銷焦點」中的即時Marketo活動檢視和篩選潛在客戶。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
 workflow-type: tm+mt
-source-wordcount: 686
+source-wordcount: 675
 ht-degree: 1%
 
 ---
@@ -22,7 +16,7 @@ ht-degree: 1%
 
 # 設定行銷重點專案
 
-行銷重點在Sales Qualifier中潛在客戶的&#x200B;**[!UICONTROL 行銷重點]**&#x200B;索引標籤上顯示每個潛在客戶的即時[!DNL Marketo]活動，例如電子郵件開啟和點按、網頁造訪和表單填寫。 本文說明如何連線您的[!DNL Marketo]執行個體，讓活動能夠順利進行。
+行銷重點顯示每個潛在客戶的即時[!DNL Marketo]活動，例如電子郵件開啟與點按、網站造訪及表單填寫。 本文說明如何連線您的[!DNL Marketo]執行個體，讓活動能夠順利進行。
 
 >[!IMPORTANT]
 >
