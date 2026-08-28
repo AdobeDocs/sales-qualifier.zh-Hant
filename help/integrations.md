@@ -12,9 +12,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 351b27d35049b0bb576e9b84f7fd6fada791bb52
+source-git-commit: 483e57ab9d8f3f5e4201e0b691e37727a25d3f22
 workflow-type: tm+mt
-source-wordcount: 1379
+source-wordcount: 1377
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Outlook連線是依代表而定。 本文稍後說明的CRM和合規性設定適用於整個組織。 若要存取這些全組織的設定，您必須屬於`Sales Qualifier`和`Sales Qualifier Admins`使用者群組。 標準使用者可使用已設定的CRM資料和篩選器，但無法變更設定。 請參閱[使用者角色和許可權](user-roles-permissions.md)。
+>Outlook連線是依代表而定。 本文稍後說明的CRM和合規性設定適用於整個組織。 若要存取這些全組織的設定，您必須屬於`Sales Qualifier`和`Sales Qualifier Admins`使用者群組。 標準使用者可使用已設定的CRM資料和篩選器，但無法變更設定。
 
 ## 連線Outlook
 
@@ -67,7 +67,7 @@ Sales Qualifier只會讀取其傳送的電子郵件回覆，而不會讀取收�
 | **[!UICONTROL 整合]** | **[!UICONTROL CRM連線]**，**[!UICONTROL 知識中心]** |
 | **[!UICONTROL 合規性]** | **[!UICONTROL 電子郵件設定]** |
 
-如需知識中心，請參閱[知識中心](knowledge-center.md)。
+若為知識中心，請參閱[建立知識中心行動手冊](admin-settings.md#knowledge-center)。
 
 ## 管理CRM連線
 
@@ -96,7 +96,7 @@ Sales Qualifier只會讀取其傳送的電子郵件回覆，而不會讀取收�
 
    輸入&#x200B;**[!UICONTROL 使用者端識別碼（使用者金鑰）]**、**[!UICONTROL 執行個體URL]**&#x200B;和&#x200B;**[!UICONTROL 使用者端密碼]**。 使用標準執行個體URL表單`https://{{mydomain}}.my.salesforce.com`。
 
-   ![Salesforce連線](assets/crm-conn-salesforce.png){width="800" zoomable="yes"}
+   ![Salesforce認證](assets/crm-salesforce-config.png){width="800" zoomable="yes"}
 
    >[!TAB Microsoft Dynamics]
 
@@ -125,8 +125,13 @@ Sales Qualifier只會讀取其傳送的電子郵件回覆，而不會讀取收�
 
 傳入對應可控制Sales Qualifier匯入的CRM欄位及其顯示位置。 欄位會分組為多個區段，每個區段都屬於一個實體型別。
 
+![傳入對應](assets/crm-conn-salesforce.png){width="800" zoomable="yes"}
+
 1. 在連線的CRM卡上，選取&#x200B;**[!UICONTROL 管理]**。
 1. 在&#x200B;**[!UICONTROL 入站對應]**&#x200B;索引標籤上，選取&#x200B;**[!UICONTROL 新增區段]**。
+
+   ![新增節](assets/crm-add-section.png){width="800" zoomable="yes"}
+
 1. 在&#x200B;**選取區段**&#x200B;步驟中，選擇實體型別，然後選取&#x200B;**[!UICONTROL 下一步]**：
 
    | 實體 | 其欄位出現的位置 |
@@ -197,5 +202,4 @@ Sales Qualifier會讀取所需的CRM實體，並只回寫已定義的資料集�
 >[!MORELIKETHIS]
 >
 >* [開始使用](getting-started.md)
->* [使用者角色和許可權](user-roles-permissions.md)
 >* [帳戶](accounts.md)

@@ -12,10 +12,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+source-git-commit: 483e57ab9d8f3f5e4201e0b691e37727a25d3f22
 workflow-type: tm+mt
-source-wordcount: 412
-ht-degree: 22%
+source-wordcount: 391
+ht-degree: 21%
 
 ---
 
@@ -108,7 +108,7 @@ BDR可使用瀏覽器和電子郵件外掛程式，直接在CRM或Outlook中存�
 
 建立行動手冊，在您的資料中納入人工智慧外聯和協助。
 
-[知識中心](knowledge-center.md)
+[知識中心](admin-settings.md#knowledge-center)
 :::
 
 :::card
@@ -129,16 +129,6 @@ BDR可使用瀏覽器和電子郵件外掛程式，直接在CRM或Outlook中存�
 設定您的電子郵件、簽名和行事曆可用性。
 
 [輪廓設定](profile-settings.md)
-:::
-
-:::card
-![圖示](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
-
-使用者角色和許可權
-
-瞭解使用者和管理員群組模型。
-
-[使用者角色和許可權](user-roles-permissions.md)
 :::
 
 :::card

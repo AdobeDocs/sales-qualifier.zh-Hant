@@ -6,9 +6,9 @@ role: User
 TQID: 'https://experienceleague.adobe.com/ofBw7JHKkkQaPOeUZ6rreLDAhAfineLveBeVYK-CerQ'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
 workflow-type: tm+mt
-source-wordcount: 321
+source-wordcount: 334
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 在左側導覽中，選取&#x200B;**[!UICONTROL 傳出效能]**&#x200B;以追蹤整個團隊的傳出活動和結果。 儀表板有兩個檢視： **[!UICONTROL 組織績效]**&#x200B;和&#x200B;**[!UICONTROL 行銷活動績效]**。
 
-[傳出效能](assets/outbound-performance.png){width="800" zoomable="yes"}
+![傳出效能](assets/outbound-performance.png){width="800" zoomable="yes"}
 
 ## 篩選和時段
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ### 概觀標籤
 
-**[!UICONTROL 總覽]**&#x200B;索引標籤會一目瞭然地總結傳出結果：
+**[!UICONTROL 總覽]**&#x200B;索引標籤會一目瞭然地摘要傳出結果。 按一下任一方塊以顯示包含該資訊的圖表。
 
 * **圖磚**：管道、電子郵件參與和手動活動，每一項都較上一個時段具有趨勢變更。
 * **效能趨勢圖**：所選時段內的傳出效能。

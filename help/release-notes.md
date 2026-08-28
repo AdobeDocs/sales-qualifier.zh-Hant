@@ -3,9 +3,9 @@ title: Sales Qualifier發行說明
 description: 瞭解銷售限定詞的新增功能。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
-source-git-commit: 351b27d35049b0bb576e9b84f7fd6fada791bb52
+source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '153'
 ht-degree: 12%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 ## 08-17-2026
 
-[!DNL Sales Qualifier]現在可作為獨立應用程式使用。 最初是作為Adobe Journey Optimizer B2B的一部分發行。
+[!DNL Sales Qualifier]現在可作為獨立應用程式使用。 其支援Marketo和Adobe Journey Optimizer B2B。
 
 此版本包括：
 
@@ -22,7 +22,7 @@ ht-degree: 12%
 * 具有AI建議的步調和草擬電子郵件的目標導向傳出工作流程。 [了解更多](outbound-workflows.md)。
 * 電話、LinkedIn InMails和電子郵件稽核的統一工作佇列。 [了解更多](tasks.md)。
 * 透過行事曆整合自動預約會議。 [了解更多](outbound-workflows.md#meeting-booking)。
-* 一個知識中心，可在您自己的行動手冊資料中將AI外聯活動納入基礎。 [了解更多](knowledge-center.md)。
+* 一個知識中心，可在您自己的行動手冊資料中將AI外聯活動納入基礎。 [了解更多](admin-settings.md#knowledge-center)。
 * AI Chat會根據您的CRM、參與和知識中心資料提供自然語言問題。 [了解更多](ai-assistant.md)。
 * 電子郵件和會議預約效能報表。 [了解更多](performance.md)。
 * 在CRM或Outlook中存取的瀏覽器和電子郵件外掛程式。 [了解更多](admin-settings.md#crm-mcp-and-the-embedded-plugin)。

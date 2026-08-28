@@ -10,9 +10,9 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
 workflow-type: tm+mt
-source-wordcount: 632
+source-wordcount: 643
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ ht-degree: 0%
 
 1. 在左側導覽中選取&#x200B;**[!UICONTROL 潛在客戶]**&#x200B;並開啟潛在客戶。 檢視[潛在客戶](prospects.md)。
 1. 在潛在客戶詳細資訊頁面上，選取&#x200B;**[!UICONTROL 帳戶]**&#x200B;標籤。
+
+![具有「人員」和「帳戶」索引標籤的「潛在客戶」詳細資料頁面](./assets/account-home.png){width="800" zoomable="yes"}
 
 Sales Qualifier會從潛在客戶的CRM記錄中識別帳戶。 與該帳戶相關聯的每個潛在客戶都可以使用相同的帳戶檢視。 如果Sales Qualifier無法比對帳戶，索引標籤會顯示&#x200B;_找不到帳戶_。
 
@@ -77,6 +79,8 @@ Sales Qualifier會從潛在客戶的CRM記錄中識別帳戶。 與該帳戶相�
 * **[!UICONTROL 研究類別]** — 研究主題。 選取類別，以在中心窗格中檢視其研究。
 * **研究內容**—AI產生的研究卡片，依類別分組。 卡片可包含來源網域，以及首次和上次偵測訊號的日期。
 * **[!UICONTROL 最近新聞]** — 帳戶的最新新聞，包括日期、標籤和來源連結。
+
+![帳戶研究標籤](./assets/account-detail.png){width="800" zoomable="yes"}
 
 如果無法載入研究或新聞，每個區域都會提供&#x200B;**[!UICONTROL 重新載入]**&#x200B;動作以重試。
 
