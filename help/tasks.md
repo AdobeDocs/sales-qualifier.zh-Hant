@@ -9,9 +9,9 @@ product_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+source-git-commit: f1202dc6d5657875b6cdc35a0116e31cabebf9be
 workflow-type: tm+mt
-source-wordcount: 900
+source-wordcount: 904
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 使用&#x200B;**[!UICONTROL 任務]**&#x200B;完成輸出工作流程產生的動作。 選取工作、執行動作、將工作標示為完成，然後繼續下一個工作而不離開頁面。
 
 在左側導覽列中，移至&#x200B;**[!UICONTROL 活動]** > **[!UICONTROL 任務]**。
+
+![任務面板](assets/tasks.png)
 
 ## 任務檢視
 
@@ -43,6 +45,8 @@ ht-degree: 0%
 * **[!UICONTROL LinkedIn InMail]** — 在順序達到LinkedIn InMail步驟時建立。 工作面板會顯示要從LinkedIn複製和傳送的內容。 展開&#x200B;**[!UICONTROL AI基本原則]**&#x200B;以檢閱基本原則。
 
 * **[!UICONTROL 電子郵件評論]** — 建立於Sales Qualifier產生潛在客戶個人化電子郵件之後。 選取&#x200B;**[!UICONTROL 檢閱電子郵件]**，以在開始外展之前檢閱及核准草稿。 請參閱[檢閱並調整產生的電子郵件](outbound-workflows.md#review-and-refine-generated-emails)。
+
+![電子郵件評論](assets/tasks-review.png)
 
 ### 工作面板
 
