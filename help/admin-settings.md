@@ -4,15 +4,12 @@ description: 瞭解如何管理CRM欄位、活動同步、電子郵件選擇退�
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 TQID: 'https://experienceleague.adobe.com/vbtO6I67ZEaZz3oio9InNErvq5D0wjbRxyDZpTq8Lzo'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
 internal-label: Administration
-source-git-commit: 483e57ab9d8f3f5e4201e0b691e37727a25d3f22
+source-git-commit: f1202dc6d5657875b6cdc35a0116e31cabebf9be
 workflow-type: tm+mt
-source-wordcount: 856
+source-wordcount: 845
 ht-degree: 0%
 
 ---
@@ -70,9 +67,9 @@ CRM連線之後，請針對連線選取&#x200B;**[!UICONTROL 管理]**，並開�
 
 1. 從&#x200B;**[!UICONTROL CRM連線]**，為連線的CRM選取&#x200B;**[!UICONTROL 管理]**。
 1. 開啟&#x200B;**[!UICONTROL 輸出對應]**。
-1. 開啟&#x200B;**[!UICONTROL 活動同步]**，將Sales Qualifier宣傳活動同步至CRM和Marketo。 已傳送、已開啟、已點按和已回覆的電子郵件活動包含傳出工作流程名稱。
+1. 開啟&#x200B;**[!UICONTROL 活動同步]**，將Sales Qualifier外聯活動同步回CRM和Marketo。
 
-當活動同步關閉時，Sales Qualifier會繼續使用傳入CRM資料，但不會將外聯活動同步至CRM或Marketo。
+當活動同步關閉時，Sales Qualifier會繼續使用傳入CRM資料，但不會將外聯活動同步至您的CRM或Marketo。
 
 ## 建立知識中心行動手冊 {#knowledge-center}
 
