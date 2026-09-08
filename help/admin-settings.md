@@ -10,9 +10,9 @@ feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
 internal-label: Administration
-source-git-commit: f1202dc6d5657875b6cdc35a0116e31cabebf9be
+source-git-commit: 527d6a99f1ca51371ab0bc44ee61482bac56fc4f
 workflow-type: tm+mt
-source-wordcount: 845
+source-wordcount: 1089
 ht-degree: 0%
 
 ---
@@ -73,6 +73,34 @@ CRM連線之後，請針對連線選取&#x200B;**[!UICONTROL 管理]**，並開�
 1. 開啟&#x200B;**[!UICONTROL 活動同步]**，將Sales Qualifier外聯活動同步回CRM和Marketo。
 
 當活動同步關閉時，Sales Qualifier會繼續使用傳入CRM資料，但不會將外聯活動同步至您的CRM或Marketo。
+
+## 設定CRM同步處理規則
+
+當潛在客戶瀏覽輸出工作流程時，Sales Qualifier可以自動將潛在客戶狀態更新寫回Salesforce和Microsoft Dynamics，以便代表不再手動更新CRM。
+
+### CRM同步規則的作用
+
+更新可針對&#x200B;**[!UICONTROL 銷售機會]**、**[!UICONTROL 連絡人]**、**[!UICONTROL 帳戶]**&#x200B;或&#x200B;**[!UICONTROL 機會]**&#x200B;記錄，而不僅僅是銷售機會。
+
+更新會在這些傳出工作流程時間點觸發：
+
+* 新增至工作流程、已回覆或已預訂的會議
+* 由代表移除或工作流程完成，沒有回覆
+* 選擇退出或電子郵件已退回
+
+欄位值可使用動態權杖進行個人化，這樣CRM更新就能反映潛在客戶的實際歷程，而非靜態值。 權杖可用於詳細資訊，例如代表姓名、傳出工作流程名稱以及會議日期和時間。
+
+僅寫入CRM相容的值，一個失敗的欄位不會封鎖其他欄位，且暫時問題會自動重試。 每次更新都會受到追蹤，以便您檢視已同步的專案以及需要注意的專案。
+
+### 設定CRM同步處理規則
+
+若要設定CRM同步處理規則：
+
+1. 在左側導覽列中，展開&#x200B;**[!UICONTROL 管理]**，然後選取&#x200B;**[!UICONTROL 管理設定]** > **[!UICONTROL CRM連線]**。
+1. 為連線的CRM選取&#x200B;**[!UICONTROL 管理]**，然後選取&#x200B;**[!UICONTROL 同步處理規則]**。
+1. 選擇目標CRM實體和欄位，將其對應至上方的工作流程時刻，然後開啟切換按鈕。
+
+設定CRM同步規則後，銷售團隊可在每個階段檢視銷售機會、聯絡人、帳戶和商機中準確、個人化的最新狀態，而且資料延遲和手動工作更少。
 
 ## 建立知識中心行動手冊 {#knowledge-center}
 

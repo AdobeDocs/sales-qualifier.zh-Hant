@@ -14,9 +14,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4cd91e6f39b7ba30d5650fad1304c74a6d6c91f0
+source-git-commit: 527d6a99f1ca51371ab0bc44ee61482bac56fc4f
 workflow-type: tm+mt
-source-wordcount: 1015
+source-wordcount: 1017
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Adobe Admin Console中的使用者群組可用來控制對Sales Qualifier的存�
 
 這些步驟是在Adobe Admin Console中完成。
 
-1. 從九點式應用程式切換器中，選取&#x200B;**[!UICONTROL Admin Console]**。
+1. 從應用程式切換器中，選取&#x200B;**[!UICONTROL Admin Console]**。
 1. 選取&#x200B;**[!UICONTROL 使用者]** > **[!UICONTROL 使用者群組]** > **[!UICONTROL 新增使用者群組]**。
 1. 輸入`Sales Qualifier`作為群組名稱，並選取&#x200B;**[!UICONTROL 儲存]**。
 1. 開啟&#x200B;**[!UICONTROL 指派的產品設定檔]**&#x200B;並選取&#x200B;**[!UICONTROL 指派設定檔]**。
@@ -72,7 +72,7 @@ Adobe Admin Console中的使用者群組可用來控制對Sales Qualifier的存�
 
 ## 連線您的CRM
 
-Sales Qualifier會連線至Salesforce或Microsoft Dynamics 365，為BDR提供使用者、潛在客戶、聯絡人、帳戶、機會、擁有者對應和相關活動的統一檢視。 初始連線需要此CRM資料的唯讀存取權。 在連線Sales Qualifier之前，請與您的CRM管理員合作準備認證。 如需整合詳細資訊，請參閱[整合](integrations.md)。
+Sales Qualifier會連線至Salesforce或Microsoft Dynamics 365，為BDR提供使用者、潛在客戶、聯絡人、帳戶、機會、擁有者對應和相關活動的統一檢視。 初始連線需要此CRM資料的唯讀存取權。 若要在連線Sales Qualifier之前準備認證，請洽詢您的CRM管理員。 如需整合詳細資訊，請參閱[整合](integrations.md)。
 
 >[!PREREQUISITES]
 >
@@ -93,7 +93,7 @@ Salesforce系統管理員會建立外部使用者端應用程式（也稱為連�
 >* 修改所有資料
 >* 管理連線應用程式
 >
->如果沒有&#x200B;_管理連線的應用程式_，系統管理員將無法檢視使用者端識別碼和使用者端密碼。
+>系統管理員需要&#x200B;_管理連線的應用程式_&#x200B;才能檢視使用者端ID和使用者端密碼。
 
 1. 在Salesforce中，移至&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 應用程式管理員]**&#x200B;並選取&#x200B;**[!UICONTROL 新連線應用程式]**&#x200B;或&#x200B;**[!UICONTROL 新外部使用者端應用程式]**。
 1. 輸入應用程式名稱和管理連絡人電子郵件。
@@ -118,7 +118,7 @@ Salesforce系統管理員會建立外部使用者端應用程式（也稱為連�
    * 回呼 URL
    * Salesforce執行個體URL
 
-步驟可能與此處所述略有不同。 如需詳細資訊，請參閱[Salesforce檔案](https://help.salesforce.com/s/)。
+步驟與此處說明的稍有不同。 如需詳細資訊，請參閱[Salesforce檔案](https://help.salesforce.com/s/?language=en_US)。
 
 ### 尋找您的Salesforce執行個體URL
 
@@ -142,7 +142,7 @@ Microsoft Dynamics 365或Azure管理員會註冊應用程式，並將其新增�
 1. 選取已註冊的Microsoft Entra應用程式。
 1. 指定安全性角色，以授予潛在客戶、聯絡人、帳戶、商機及活動的讀取存取權。
 
-   需要安全性角色。 若無此專案，應用程式將無法存取Dynamics資料。
+   需要安全性角色。 應用程式必須有安全性角色才能存取Dynamics資料。
 
 1. 收集使用者端ID、使用者端密碼、租使用者ID以及Dynamics執行個體URL。 使用標準URL表單`https://{{mydomain}}.crm.dynamics.com`。
 
