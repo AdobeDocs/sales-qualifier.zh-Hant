@@ -4,9 +4,15 @@ description: 瞭解如何在Sales Qualifier中建立、共用、稽核和管理A
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/n3FbuiM2zF9QSqaKx1bhBSdbsf-w7vEsEGjCQTBo3g4'
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 527d6a99f1ca51371ab0bc44ee61482bac56fc4f
 workflow-type: tm+mt
 source-wordcount: 2062
@@ -143,7 +149,7 @@ AI會針對每個選取的潛在客戶和電子郵件接觸點產生個人化電
 
 對於每個潛在客戶，AI會結合接觸點提示與人員和帳戶資料、參與歷史記錄和近期新聞，以產生主旨行和正文。
 
-產生的電子郵件會使用針對潛在客戶儲存的任何其他資料，包括與潛在客戶](prospects.md#build-your-prospect-list)匯入的[自訂欄位，因此草稿更相關。 支援的欄位沒有固定的清單，新的或自訂欄位無需額外的設定即可運作。 AI會在相關時使用這些資料；如果潛在客戶沒有額外的資料，則電子郵件產生的運作方式與先前相同。
+產生的電子郵件會使用針對潛在客戶儲存的任何其他資料，包括與潛在客戶[&#128279;](prospects.md#build-your-prospect-list)匯入的自訂欄位，因此草稿更相關。 支援的欄位沒有固定的清單，新的或自訂欄位無需額外的設定即可運作。 AI會在相關時使用這些資料；如果潛在客戶沒有額外的資料，則電子郵件產生的運作方式與先前相同。
 
 也可以以潛在客戶的語言產生電子郵件，其中包含正確的問候語、自然措辭和適當的商務語調。 支援的語言包括法文、德文、西班牙文等。
 
