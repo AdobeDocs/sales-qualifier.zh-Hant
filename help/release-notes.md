@@ -3,14 +3,27 @@ title: Sales Qualifier發行說明
 description: 瞭解銷售限定詞的新增功能。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
-source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
+source-git-commit: 425969ba4795005df9e307f244c1612f1d3f15b7
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '307'
 ht-degree: 12%
 
 ---
 
 # Sales Qualifier發行說明
+
+## 09-08-2026
+
+此版本包括：
+
+* 在「設定檔」設定中設定一次您自己的電子郵件草擬樣式，每個產生的電子郵件都會依循該樣式。 [了解更多](profile-settings.md#email-drafting-context)。
+* 在新的「會議研究」標籤中，從潛在客戶頁面產生目標型或自訂會議準備。 [了解更多](prospects.md#generate-meeting-prep)。
+* 管理員可以將「輸出工作流程」指派給隊友，並將工作流程設定重設為預設值。 [了解更多](outbound-workflows.md#create-an-outbound-workflow)。
+* 從CSV匯入潛在客戶時，請對應自訂欄位，並在產生的電子郵件中使用這些值。 [了解更多](prospects.md#build-your-prospect-list)。
+* 產生的電子郵件會使用您匯入的任何其他潛在客戶資料，並且可以用潛在客戶的語言以原生方式撰寫。 [了解更多](outbound-workflows.md#step-5-add-prospects-and-start-email-generation)。
+* 「出站績效」預設會顯示開啟率和點按率，在組織層次切換原始計數和潛在客戶總計。 [了解更多](performance.md)。
+* 當潛在客戶在輸出工作流程中移動時，CRM同步規則會自動更新CRM狀態。 [了解更多](admin-settings.md#configure-crm-sync-rules)。
+* 在您的Sales Qualifier、CRM、[!DNL Marketo]和[!DNL Adobe Journey Optimizer B2B Edition]資料中詢問AI Chat問題。 [了解更多](ai-assistant.md#ask-ai-chat-across-your-connected-data)。
 
 ## 08-17-2026
 

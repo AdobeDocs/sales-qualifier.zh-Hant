@@ -4,17 +4,13 @@ description: 瞭解如何從CRM、匯入和手動新增的來源、篩選潛在�
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/zf2H5rq1JlIT26LqLPMrm2Mq3tSIrLOiTEw6BXb1w2U'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 351b27d35049b0bb576e9b84f7fd6fada791bb52
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: c7f4e1b7adc4b3420ea5f16c3b426c40bb300d45
 workflow-type: tm+mt
-source-wordcount: 549
-ht-degree: 2%
+source-wordcount: 698
+ht-degree: 1%
 
 ---
 
@@ -48,6 +44,7 @@ ht-degree: 2%
 
    * 若要匯入CSV，請上傳`firstname,email`格式的CSV。
      名字和電子郵件為必填。 姓氏為選用。 CSV範本不包含CRM銷售機會ID欄，但您可以在匯入之前將該欄及其值新增到檔案中。 如果匯入失敗，請檢閱錯誤訊息以尋找要更正的欄位或值，然後再次上傳檔案。
+     對應任何自訂或其他CSV欄位，而不僅僅是標準欄位。 Sales Qualifier會將這些值儲存給每個潛在客戶，並於稍後提供這些值，包括產生[電子郵件](outbound-workflows.md#step-5-add-prospects-and-start-email-generation)。
    * 若要手動新增人員，請在表單中輸入其詳細資料。
 
 1. 選取「**[!UICONTROL 儲存]**」。
@@ -88,6 +85,13 @@ ht-degree: 2%
 * **活動清單** — 按時間順序排列的活動和最近行為清單。
 * **時間表檢視** — 跨管道互動的視覺時間表。
 * **已檢視內容** — 潛在客戶已檢視的網頁和資產。 選取要開啟的專案。
+
+### 產生會議準備
+
+除了長期的AI人員摘要之外，您還可以從&#x200B;**[!UICONTROL 帳戶研究]**&#x200B;旁的&#x200B;**[!UICONTROL 會議研究]**&#x200B;索引標籤，產生針對特定近期通話量身打造的會議準備。
+
+* **目標型** — 如果潛在客戶已註冊執行中的輸出工作流程，請選取它。 準備作業會符合該傳出工作流程的目標，例如預約會議、產品推介、活動邀請或重新吸引潛在客戶。
+* **自訂提示** — 輸入您要準備的內容，例如`Focus on renewal risk`或`Prepare for a technical deep dive with their IT lead`。 準備符合您的提示。 只要潛在客戶不在執行中的傳出工作流程中，就可以使用自訂提示選項。
 
 >[!MORELIKETHIS]
 >
