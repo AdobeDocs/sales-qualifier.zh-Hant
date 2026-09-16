@@ -1,22 +1,24 @@
 ---
-title: Sales Qualifier中的帳戶
-description: 瞭解如何在Sales Qualifier中檢閱客戶情報（包括AI研究、最近的新聞、機會和最熱門的參與連絡人），以排定外聯的優先順序。
+title: Adobe Marketo中的帳戶限定詞
+description: 瞭解如何在Adobe Marketo Qualifier中檢閱客戶情報（包括AI研究、最近的新聞、機會和最熱門的參與連絡人），以排定外聯的優先順序。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+    internal-label: Integrations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
+    internal-label: Insights
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 643
+source-wordcount: '646'
 ht-degree: 0%
-
 ---
-
 
 # 帳戶
 
@@ -31,7 +33,7 @@ ht-degree: 0%
 
 ![具有「人員」和「帳戶」索引標籤的「潛在客戶」詳細資料頁面](./assets/account-home.png){width="800" zoomable="yes"}
 
-Sales Qualifier會從潛在客戶的CRM記錄中識別帳戶。 與該帳戶相關聯的每個潛在客戶都可以使用相同的帳戶檢視。 如果Sales Qualifier無法比對帳戶，索引標籤會顯示&#x200B;_找不到帳戶_。
+Adobe Marketo限定詞會從潛在客戶的CRM記錄中識別帳戶。 與該帳戶相關聯的每個潛在客戶都可以使用相同的帳戶檢視。 如果Marketo限定詞無法比對帳戶，索引標籤會顯示&#x200B;_找不到帳戶_。
 
 >[!NOTE]
 >

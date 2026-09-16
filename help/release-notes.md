@@ -1,16 +1,14 @@
 ---
-title: Sales Qualifier發行說明
-description: 瞭解銷售限定詞的新增功能。
+title: Adobe Marketo限定詞發行說明
+description: 瞭解Adobe Marketo辨識符號的新功能。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
-source-git-commit: 425969ba4795005df9e307f244c1612f1d3f15b7
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '310'
 ht-degree: 12%
-
 ---
-
-# Sales Qualifier發行說明
+# Adobe Marketo限定詞發行說明
 
 ## 09-08-2026
 
@@ -23,11 +21,11 @@ ht-degree: 12%
 * 產生的電子郵件會使用您匯入的任何其他潛在客戶資料，並且可以用潛在客戶的語言以原生方式撰寫。 [了解更多](outbound-workflows.md#step-5-add-prospects-and-start-email-generation)。
 * 「出站績效」預設會顯示開啟率和點按率，在組織層次切換原始計數和潛在客戶總計。 [了解更多](performance.md)。
 * 當潛在客戶在輸出工作流程中移動時，CRM同步規則會自動更新CRM狀態。 [了解更多](admin-settings.md#configure-crm-sync-rules)。
-* 在您的Sales Qualifier、CRM、[!DNL Marketo]和[!DNL Adobe Journey Optimizer B2B Edition]資料中詢問AI Chat問題。 [了解更多](ai-assistant.md#ask-ai-chat-across-your-connected-data)。
+* 在您的Marketo辨識符號、CRM、[!DNL Marketo]和[!DNL Adobe Journey Optimizer B2B Edition]資料中詢問AI Chat問題。 [了解更多](ai-assistant.md#ask-ai-chat-across-your-connected-data)。
 
 ## 08-17-2026
 
-[!DNL Sales Qualifier]現在可作為獨立應用程式使用。 其支援Marketo和Adobe Journey Optimizer B2B。
+[!DNL Marketo Qualifier]現在可作為獨立應用程式使用。 其支援Marketo和Adobe Journey Optimizer B2B。
 
 此版本包括：
 

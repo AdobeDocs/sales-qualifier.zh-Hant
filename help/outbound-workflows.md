@@ -1,25 +1,29 @@
 ---
 title: 建立及管理傳出工作流程
-description: 瞭解如何在Sales Qualifier中建立、共用、稽核和管理AI產生的傳出工作流程，以執行目標導向的外聯步調。
+description: 瞭解如何在Adobe Marketo Qualifier中建立、共用、稽核和管理AI產生的傳出工作流程，以執行目標導向的外聯步調。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/n3FbuiM2zF9QSqaKx1bhBSdbsf-w7vEsEGjCQTBo3g4'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+    internal-label: Integrations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527d6a99f1ca51371ab0bc44ee61482bac56fc4f
+    internal-label: Insights
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 2062
+source-wordcount: '2064'
 ht-degree: 0%
-
 ---
-
 
 # 傳出工作流程
 
@@ -149,13 +153,13 @@ AI會針對每個選取的潛在客戶和電子郵件接觸點產生個人化電
 
 對於每個潛在客戶，AI會結合接觸點提示與人員和帳戶資料、參與歷史記錄和近期新聞，以產生主旨行和正文。
 
-產生的電子郵件會使用針對潛在客戶儲存的任何其他資料，包括與潛在客戶[&#128279;](prospects.md#build-your-prospect-list)匯入的自訂欄位，因此草稿更相關。 支援的欄位沒有固定的清單，新的或自訂欄位無需額外的設定即可運作。 AI會在相關時使用這些資料；如果潛在客戶沒有額外的資料，則電子郵件產生的運作方式與先前相同。
+產生的電子郵件會使用針對潛在客戶儲存的任何其他資料，包括與潛在客戶](prospects.md#build-your-prospect-list)匯入的[自訂欄位，因此草稿更相關。 支援的欄位沒有固定的清單，新的或自訂欄位無需額外的設定即可運作。 AI會在相關時使用這些資料；如果潛在客戶沒有額外的資料，則電子郵件產生的運作方式與先前相同。
 
 也可以以潛在客戶的語言產生電子郵件，其中包含正確的問候語、自然措辭和適當的商務語調。 支援的語言包括法文、德文、西班牙文等。
 
 ## 檢閱和調整產生的電子郵件
 
-產生完成後，「出站工作流程」詳細資料檢視會提示您檢閱草稿。 在您核准前，Sales Qualifier不會傳送電子郵件。
+產生完成後，「出站工作流程」詳細資料檢視會提示您檢閱草稿。 Adobe Marketo限定詞需等到您核准後才會傳送電子郵件。
 
 1. 在[輸出工作流程]詳細檢視中，選取橫幅中的&#x200B;**[!UICONTROL 檢閱草稿]**。
 1. **[!UICONTROL 檢閱接觸點]**&#x200B;步驟有兩個標籤：
@@ -234,10 +238,10 @@ AI會針對每個選取的潛在客戶和電子郵件接觸點產生個人化電
 
 ## 會議預訂
 
-當您連線行事曆時，Sales Qualifier會產生個人預約連結，潛在客戶可使用此連結來排程與您之間的時間。
+當您連線行事曆時，Marketo Qualifier會產生個人預約連結，潛在客戶可使用此連結來排程與您之間的時間。
 
 * **預約連結** — 在[設定檔設定](profile-settings.md)中設定行事曆連線和可用性。 將預訂連結新增至您的電子郵件簽名，使其顯示在傳出電子郵件中。
-* **步調位置**—Sales Qualifier會在相關點以步調插入您的預訂連結。 您可以變更其位置。
+* **步調位置**—Marketo限定詞會以步調在相關點插入您的預訂連結。 您可以變更其位置。
 * **預約暫停** — 潛在客戶預約會議時，**[!UICONTROL 會議預約暫停]**&#x200B;會停止後續追蹤。 請參閱[步驟4：設定輸出工作流程設定](#step-4-configure-outbound-workflow-settings)。
 
 在[傳出效能](performance.md)頁面上追蹤預訂結果。
