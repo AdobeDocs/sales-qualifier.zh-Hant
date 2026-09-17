@@ -1,21 +1,22 @@
 ---
-title: Sales Qualifier中的任務
-description: 瞭解如何在Sales Qualifier工作佇列中處理手動外展工作，並審查代理程式建議的潛在客戶。
+title: Adobe Marketo限定詞中的任務
+description: 瞭解如何在Adobe Marketo Qualifier工作佇列中處理手動外聯工作，並審查代理程式建議的潛在客戶。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/MbTN1r-ARrW-XYtdIS-KZT7K1Lk-B3GihT8iXL60GrQ'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f1202dc6d5657875b6cdc35a0116e31cabebf9be
+    internal-label: Insights
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 904
+source-wordcount: '907'
 ht-degree: 0%
-
 ---
-
 
 # 工作
 
@@ -44,7 +45,7 @@ ht-degree: 0%
 
 * **[!UICONTROL LinkedIn InMail]** — 在順序達到LinkedIn InMail步驟時建立。 工作面板會顯示要從LinkedIn複製和傳送的內容。 展開&#x200B;**[!UICONTROL AI基本原則]**&#x200B;以檢閱基本原則。
 
-* **[!UICONTROL 電子郵件評論]** — 建立於Sales Qualifier產生潛在客戶個人化電子郵件之後。 選取&#x200B;**[!UICONTROL 檢閱電子郵件]**，以在開始外展之前檢閱及核准草稿。 請參閱[檢閱並調整產生的電子郵件](outbound-workflows.md#review-and-refine-generated-emails)。
+* **[!UICONTROL 電子郵件評論]** — 在Adobe Marketo限定詞產生潛在客戶個人化電子郵件之後建立。 選取&#x200B;**[!UICONTROL 檢閱電子郵件]**，以在開始外展之前檢閱及核准草稿。 請參閱[檢閱並調整產生的電子郵件](outbound-workflows.md#review-and-refine-generated-emails)。
 
 ![電子郵件評論](assets/tasks-review.png)
 

@@ -1,23 +1,25 @@
 ---
-title: Sales Qualifier中的潛在客戶
-description: 瞭解如何從CRM、匯入和手動新增的來源、篩選潛在客戶以及在Sales Qualifier中檢閱潛在客戶詳細資訊，以建立您的潛在客戶清單。
+title: Adobe Marketo中的潛在客戶限定詞
+description: 瞭解如何從CRM、匯入和手動新增的來源、篩選潛在客戶以及在Adobe Marketo限定詞中檢閱潛在客戶詳細資訊，以建立您的潛在客戶清單。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/zf2H5rq1JlIT26LqLPMrm2Mq3tSIrLOiTEw6BXb1w2U'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+    internal-label: Integrations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: c7f4e1b7adc4b3420ea5f16c3b426c40bb300d45
+    internal-label: Insights
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 698
+source-wordcount: '701'
 ht-degree: 1%
-
 ---
-
 
 # 潛在客戶
 
@@ -34,9 +36,9 @@ ht-degree: 1%
 
 潛在客戶清單結合來自多個來源的人員：
 
-* **CRM潛在客戶**—Sales Qualifier會自動匯入指派給已連線使用者的潛在客戶與聯絡人。 請參閱[整合](integrations.md)。
+* **CRM潛在客戶**—Adobe Marketo限定詞會自動匯入指派給連線使用者的潛在客戶與聯絡人。 請參閱[整合](integrations.md)。
 * **匯入的潛在客戶** — 從CSV檔案匯入的潛在客戶。
-* **手動新增潛在客戶** — 在Sales Qualifier中新增個別潛在客戶。
+* **手動新增潛在客戶** — 在Marketo限定詞中新增個別潛在客戶。
 
 若要新增非來自您CRM的潛在客戶：
 
@@ -48,7 +50,7 @@ ht-degree: 1%
 
    * 若要匯入CSV，請上傳`firstname,email`格式的CSV。
      名字和電子郵件為必填。 姓氏為選用。 CSV範本不包含CRM銷售機會ID欄，但您可以在匯入之前將該欄及其值新增到檔案中。 如果匯入失敗，請檢閱錯誤訊息以尋找要更正的欄位或值，然後再次上傳檔案。
-     對應任何自訂或其他CSV欄位，而不僅僅是標準欄位。 Sales Qualifier會將這些值儲存給每個潛在客戶，並於稍後提供這些值，包括產生[電子郵件](outbound-workflows.md#step-5-add-prospects-and-start-email-generation)。
+     對應任何自訂或其他CSV欄位，而不僅僅是標準欄位。 Marketo限定詞會將這些值儲存給每個潛在客戶，並在稍後提供這些值，包括產生[電子郵件](outbound-workflows.md#step-5-add-prospects-and-start-email-generation)。
    * 若要手動新增人員，請在表單中輸入其詳細資料。
 
 1. 選取「**[!UICONTROL 儲存]**」。
@@ -79,7 +81,7 @@ ht-degree: 1%
 
 每個潛在客戶都會顯示其最新的[!DNL Marketo]活動以及最近的歷史記錄。
 
-行銷重點適用於所有生產區域。 管理員完成一次性設定，將[!DNL Marketo]連線至Sales Qualifier。 請參閱[設定行銷重點專案](integrations.md#turn-on-marketo-engagement-filtering)。
+行銷重點適用於所有生產區域。 管理員完成一次性設定，將[!DNL Marketo]連線至Marketo辨識符號。 請參閱[設定行銷重點專案](integrations.md#turn-on-marketo-engagement-filtering)。
 
 ## 檢閱潛在客戶詳細資訊
 

@@ -1,28 +1,30 @@
 ---
 title: 使用AI聊天
-description: 瞭解如何使用Sales Qualifier中的AI Chat來研究帳戶、草稿外聯，以及根據您的CRM、參與和知識中心資料取得答案。
+description: 瞭解如何使用Adobe Marketo Qualifier中的AI Chat來研究帳戶、草擬外展方案，以及根據您的CRM、參與和知識中心資料取得答案。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/LHCHAk0rsNwLsKFhKMlHaLL7xkkCEAKFNDMEonb2TdQ'
 product_v2:
   - id: d98caee2-fd67-486e-9513-36435358ebff
+    internal-label: Sales Qualifier
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: c7f4e1b7adc4b3420ea5f16c3b426c40bb300d45
+    internal-label: Artificial intelligence
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 725
+source-wordcount: '727'
 ht-degree: 1%
-
 ---
-
 
 # AI聊天
 
-AI Chat會根據您的銷售內容回答自然語言問題。 使用它來研究帳戶、準備通話、草稿外聯，以及在不離開Sales Qualifier的情況下排定工作優先順序。
+AI Chat會根據您的銷售內容回答自然語言問題。 使用它來研究帳戶、準備電話、草擬外展活動，以及在不離開Adobe Marketo辨識符號的情況下排定工作優先順序。
 
 ![AI聊天按鈕](assets/ai-chat.png){width="800" zoomable="yes"}
 
@@ -56,7 +58,7 @@ AI Chat可以使用以下來源：
 
 ## 在連線的資料中詢問AI聊天
 
-AI Chat可回答您Sales Qualifier、CRM、[!DNL Marketo]、[!DNL Adobe Journey Optimizer B2B Edition]和公司情報資料的問題。 以簡單語言提出問題以查閱資訊或提取內容。 AI Chat會讀取並報告您的資料；不會建立、編輯或啟動任何內容。
+AI Chat可回答您Marketo辨識符號、CRM、[!DNL Marketo]、[!DNL Adobe Journey Optimizer B2B Edition]和公司情報資料的問題。 以簡單語言提出問題以查閱資訊或提取內容。 AI Chat會讀取並報告您的資料；不會建立、編輯或啟動任何內容。
 
 以下是一些範例提示。 您在提示中顯示的內容越具體，結果就會越集中。
 

@@ -1,20 +1,20 @@
 ---
-title: Sales Qualifier中的傳出效能
-description: 瞭解如何在Sales Qualifier中檢閱組織績效和行銷活動績效報告，以追蹤對外活動和結果。
+title: Adobe Marketo限定詞中的傳出效能
+description: 瞭解如何在Adobe Marketo限定詞中檢閱組織績效和行銷活動績效報告，以追蹤對外活動和結果。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/ofBw7JHKkkQaPOeUZ6rreLDAhAfineLveBeVYK-CerQ'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: 527d6a99f1ca51371ab0bc44ee61482bac56fc4f
+    internal-label: CX Enterprise
+Outbound Workflows    internal-label: Insights
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 401
+source-wordcount: '404'
 ht-degree: 0%
-
 ---
 
-
-# Sales Qualifier中的傳出效能
+# Adobe Marketo限定詞中的傳出效能
 
 在左側導覽中，選取&#x200B;**[!UICONTROL 傳出效能]**&#x200B;以追蹤整個團隊的傳出活動和結果。 儀表板有兩個檢視： **[!UICONTROL 組織績效]**&#x200B;和&#x200B;**[!UICONTROL 行銷活動績效]**。
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 * **每週電子郵件趨勢圖**：每週的電子郵件活動。
 * 每位代表的電子郵件效能表格。
 
-Sales Qualifier會為「不在辦公室」回覆和退信指派個別的狀態，以便您將其與潛在客戶參與區分開來。
+Marketo限定詞會為「不在辦公室」的回覆和退回指定個別的狀態，以便您將其與潛在客戶參與區分開來。
 
 ### 任務標籤
 

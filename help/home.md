@@ -1,32 +1,35 @@
 ---
-title: Sales Qualifier概觀
-description: 瞭解Sales Qualifier，這是人工智慧驅動的應用程式，可為B2B銷售團隊自動化潛在客戶資格、外聯和買家參與。
+title: Adobe Marketo辨識符號概述
+description: 瞭解Adobe Marketo Qualifier，這是一個AI驅動的應用程式，可為B2B銷售團隊自動化潛在客戶資格、外聯和買家參與。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/4IsAlgFBxddHCz0-CLCDXPCHI7m3motiXhgCR6MZq0k'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+    internal-label: Integrations
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 483e57ab9d8f3f5e4201e0b691e37727a25d3f22
+    internal-label: Insights
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 391
+source-wordcount: '394'
 ht-degree: 21%
-
 ---
 
+# Adobe Marketo辨識符號
 
-# 銷售限定詞
-
-Adobe Sales Qualifier是AI支援的應用程式，可自動化企業開發代表(BDR)的潛在客戶資格、拓展和跨管道購買者參與。 Account Qualification Agent會分析您的帳戶和潛在客戶、將已準備好進行下一步的帳戶和潛在客戶排定優先順序，並根據您的CRM資料草擬個人化外展方案。
+Adobe Marketo Qualifier是AI支援的應用程式，可自動化潛在客戶資格、外展和跨管道商業開發代表(BDR)的買方參與。 Account Qualification Agent會分析您的帳戶和潛在客戶、將已準備好進行下一步的帳戶和潛在客戶排定優先順序，並根據您的CRM資料草擬個人化外展方案。
 
 BDR可使用瀏覽器和電子郵件外掛程式，直接在CRM或Outlook中存取商業智慧。
 
-## 在Sales Qualifier中可以做什麼
+## 在Marketo辨識符號中可以執行的動作
 
 * **使用AI產生的活動摘要和訊號式優先順序，優先處理潛在客戶和帳戶**。
 * **建立目標導向的傳出工作流程**，其中AI會為每個潛在客戶建議步調並草擬個人化電子郵件。

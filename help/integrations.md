@@ -1,34 +1,38 @@
 ---
 title: 管理整合
-description: 瞭解如何在Sales Qualifier中連線Outlook、管理CRM連線、對應傳入欄位、同步活動以及設定全域電子郵件選擇退出。
+description: 瞭解如何連線Outlook、管理CRM連線、對應輸入欄位、同步活動，以及在Adobe Marketo限定詞中設定全域電子郵件選擇退出。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User, Admin
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+    internal-label: Integrations
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+    internal-label: Administration
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 483e57ab9d8f3f5e4201e0b691e37727a25d3f22
+    internal-label: Insights
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 1377
+source-wordcount: '1379'
 ht-degree: 1%
-
 ---
-
 
 # 整合
 
-連線Outlook以傳送電子郵件、辨識潛在客戶回覆，以及排程會議。 若要讓銷售機會、聯絡人、客戶、商機、活動和擁有者可用於Account Qualification Agent (AQA)和對外工作流程，您也可以將Sales Qualifier連線至Salesforce或Microsoft Dynamics 365。 Sales Qualifier會讀取CRM資料、將外聯活動和選擇退出狀態寫入回CRM，並可將外聯活動同步到Marketo。 它不會以其他方式修改CRM記錄。
+連線Outlook以傳送電子郵件、辨識潛在客戶回覆，以及排程會議。 若要讓銷售機會、聯絡人、客戶、商機、活動和擁有者可用於Account Qualification Agent (AQA)和對外工作流程，您也可以將Adobe Marketo Qualifier連線至Salesforce或Microsoft Dynamics 365。 Marketo限定詞可讀取CRM資料、將外聯活動和選擇退出狀態寫入回CRM，並可將外聯活動同步到Marketo。 它不會以其他方式修改CRM記錄。
 
 本文說明如何連線Outlook、管理CRM連線、對應欄位、同步活動以及設定電子郵件選擇退出。 若要第一次連線CRM，請參閱[開始使用](getting-started.md#connect-your-crm)。
 
 >[!IMPORTANT]
 >
->Outlook連線是依代表而定。 本文稍後說明的CRM和合規性設定適用於整個組織。 若要存取這些全組織的設定，您必須屬於`Sales Qualifier`和`Sales Qualifier Admins`使用者群組。 標準使用者可使用已設定的CRM資料和篩選器，但無法變更設定。
+>Outlook連線是依代表而定。 本文稍後說明的CRM和合規性設定適用於整個組織。 若要存取這些全組織的設定，您必須屬於`Marketo Qualifier`和`Marketo Qualifier Admins`使用者群組。 標準使用者可使用已設定的CRM資料和篩選器，但無法變更設定。
 
 ## 連線Outlook
 
@@ -38,9 +42,9 @@ ht-degree: 1%
 1. 使用您的Microsoft帳戶登入。
 1. 檢閱並核准要求的存取權。
 
-此連線可讓Sales Qualifier從您的信箱傳送、識別潛在客戶回覆的時間，以及排程您行事曆上的會議。
+此連線可讓Marketo Qualifier從您的信箱傳送、識別潛在客戶回覆的時間，以及排程您行事曆上的會議。
 
-連線時，您可核准允許Sales Qualifier進行下列作業的存取權：
+連線時，您可以核准允許Marketo限定詞的存取權：
 
 * 識別潛在客戶的回覆。
 * 代表您建立並傳送電子郵件。
@@ -52,11 +56,11 @@ ht-degree: 1%
 
 依預設，不需要系統管理員採取任何動作。 每位代表都會在連線Outlook時核准自己的存取權。
 
-如果您的組織已在Microsoft 365或Microsoft Entra中關閉協力廠商應用程式的使用者同意功能，則Microsoft 365或Entra管理員必須針對整個組織核准一次Sales Qualifier。 管理員會在代表連線其Outlook帳戶之前完成此核准。 在整個組織核心准後，每個代表都可以連線其帳戶。
+如果您的組織已在Microsoft 365或Microsoft Entra中關閉協力廠商應用程式的使用者同意，Microsoft 365或Entra管理員必須針對整個組織核准一次Marketo限定詞。 管理員會在代表連線其Outlook帳戶之前完成此核准。 在整個組織核心准後，每個代表都可以連線其帳戶。
 
-### Sales Qualifier如何處理您的信箱資料
+### Marketo限定詞如何處理您的信箱資料
 
-Sales Qualifier只會讀取其傳送的電子郵件回覆，而不會讀取收件匣其他部分。 不會將傳入附件或電子郵件儲存在作用中參與以外的位置。 已加密儲存的登入認證。
+Marketo限定詞只會讀取其所傳送之電子郵件的回覆，而不會讀取收件匣的其他部分。 不會將傳入附件或電子郵件儲存在作用中參與以外的位置。 已加密儲存的登入認證。
 
 ## 開啟CRM設定
 
@@ -106,11 +110,11 @@ Sales Qualifier只會讀取其傳送的電子郵件回覆，而不會讀取收�
 
 1. 選取&#x200B;**[!UICONTROL 連線]** （編輯時選取&#x200B;**[!UICONTROL 儲存]**）。
 
-如果Sales Qualifier拒絕認證，則會識別原因，例如認證無效或過期、缺少許可權或無法辨識的Dynamics租使用者。 請更正值，然後再試一次。
+如果Marketo限定詞拒絕認證，則會識別原因，例如認證無效或過期、缺少許可權或無法辨識的Dynamics租使用者。 請更正值，然後再試一次。
 
 >[!IMPORTANT]
 >
->請勿透過電子郵件傳送使用者端密碼。 使用您組織核准的安全通道，與在Sales Qualifier中進入認證的人共用認證。
+>請勿透過電子郵件傳送使用者端密碼。 使用您組織核准的安全管道，與在Marketo辨識符號中輸入認證的人共用認證。
 
 ### 中斷連線
 
@@ -123,7 +127,7 @@ Sales Qualifier只會讀取其傳送的電子郵件回覆，而不會讀取收�
 
 ## 對應CRM欄位（傳入對應） {#map-crm-fields-inbound-mapping}
 
-傳入對應可控制Sales Qualifier匯入的CRM欄位及其顯示位置。 欄位會分組為多個區段，每個區段都屬於一個實體型別。
+傳入對應可控制Marketo限定詞匯入的CRM欄位及其顯示位置。 欄位會分組為多個區段，每個區段都屬於一個實體型別。
 
 ![傳入對應](assets/crm-conn-salesforce.png){width="800" zoomable="yes"}
 
@@ -155,23 +159,23 @@ Sales Qualifier只會讀取其傳送的電子郵件回覆，而不會讀取收�
 
 ## 設定活動同步（傳出對應） {#configure-activity-sync-outbound-mapping}
 
-Activity Sync會將Sales Qualifier外聯活動寫入您的CRM和Marketo。 已傳送、已開啟、已點按和已回覆的電子郵件活動包含傳出工作流程名稱。 代表可以在CRM中看到活動，而行銷團隊可以在潛在客戶評分和參與時間表中使用Marketo活動。
+Activity Sync會將Marketo Qualifier外聯活動寫入您的CRM和Marketo。 已傳送、已開啟、已點按和已回覆的電子郵件活動包含傳出工作流程名稱。 代表可以在CRM中看到活動，而行銷團隊可以在潛在客戶評分和參與時間表中使用Marketo活動。
 
 1. 在連線的CRM卡上，選取&#x200B;**[!UICONTROL 管理]**。
 1. 開啟&#x200B;**[!UICONTROL 傳出對應]**&#x200B;索引標籤。
 1. 開啟&#x200B;**[!UICONTROL 活動同步]**。 設定會立即儲存。
 
-當活動同步關閉時，Sales Qualifier會繼續使用傳入CRM資料，但不會將外聯活動同步至CRM或Marketo。
+當活動同步關閉時，Marketo Qualifier會繼續使用傳入CRM資料，但不會將外聯活動同步至CRM或Marketo。
 
 >[!NOTE]
 >
->活動同步作業需要您CRM中的寫入許可權。 如果缺少所需的許可權，則會停用交換器，且Sales Qualifier會提示您聯絡管理員。 若要授與活動寫入許可權，請與您的CRM管理員合作。
+>活動同步作業需要您CRM中的寫入許可權。 如果缺少必要的許可權，則會停用切換器，且Marketo限定詞會提示您連絡管理員。 若要授與活動寫入許可權，請與您的CRM管理員合作。
 
 ## 設定行銷重點專案 {#turn-on-marketo-engagement-filtering}
 
 行銷重點可讓代表透過其即時[!DNL Marketo]參與（例如電子郵件開啟和點按），尋找潛在客戶並安排其優先順序。 請參閱[依行銷重點篩選](prospects.md#filter-by-marketing-highlights)。
 
-管理員完成一次性設定，將[!DNL Marketo]連線到相關組織和沙箱的Sales Qualifier。 此設定涵蓋在Adobe Developer Console中建立API認證、在[!DNL Marketo]中設定webhook，以及將該webhook新增至觸發程式Smart Campaign。 如需完整步驟，請參閱[設定行銷重點專案](marketing-highlights-setup.md)。
+管理員完成一次性設定，將[!DNL Marketo]連線到相關組織和沙箱的Marketo限定詞。 此設定涵蓋在Adobe Developer Console中建立API認證、在[!DNL Marketo]中設定webhook，以及將該webhook新增至觸發程式Smart Campaign。 如需完整步驟，請參閱[設定行銷重點專案](marketing-highlights-setup.md)。
 
 行銷重點適用於所有生產區域：北美、歐洲、中東和非洲及澳洲。
 
@@ -188,16 +192,16 @@ Activity Sync會將Sales Qualifier外聯活動寫入您的CRM和Marketo。 已�
 
 設定和範本會自動儲存。
 
-當潛在客戶選取連結時，Sales Qualifier會停止向該潛在客戶傳送電子郵件，並將選擇退出狀態同步到連線的CRM。
+當潛在客戶選取連結時，Marketo限定詞會停止向該潛在客戶傳送電子郵件，並將選擇退出狀態同步到連線的CRM。
 
 ## CRM存取範圍
 
-Sales Qualifier會讀取所需的CRM實體，並只回寫已定義的資料集：
+Marketo限定詞會讀取所需的CRM實體，並僅回寫定義的一組資料：
 
 * **讀取** — 使用者、連絡人、擁有者對應、潛在客戶、帳戶、商機及活動。
 * **寫入** — 記錄外展活動（當[活動同步](#configure-activity-sync-outbound-mapping)開啟時）和選擇退出狀態。
 
-您的CRM管理員已在Salesforce或Dynamics中準備API存取。 Sales Qualifier管理員接著會連線CRM、對應傳入欄位，並選擇是否同步活動。 初始連線需要唯讀存取權。 活動同步和選擇退出回寫需要對應的寫入許可權。
+您的CRM管理員已在Salesforce或Dynamics中準備API存取。 Marketo限定詞管理員接著會連線CRM、對應輸入欄位，並選擇是否同步活動。 初始連線需要唯讀存取權。 活動同步和選擇退出回寫需要對應的寫入許可權。
 
 >[!MORELIKETHIS]
 >
